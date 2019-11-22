@@ -3,4 +3,4 @@
 - 혼자 공부한 내용
 - 기타 등등
 
-![Alt text](./images/codingman.jpg)
+![Alt text](./images/comdol.png)
