@@ -45,6 +45,10 @@ module.exports = {
                   title: '4장 기본 알고리즘 작성하기', // required
                   path: '/book/JPIE/04',
                 },
+                {
+                  title: '5장 자료구조', // required
+                  path: '/book/JPIE/05',
+                },
               ]
             },
 
