@@ -110,17 +110,17 @@ module.exports = {
               children: [
                 {
                   title: '1장 스프링 속으로', // required
-                  path: '/book/spring-in-action/001_스프링속으로',
+                  path: '/book/spring-in-action/001_스프링속으로',
                 },
 
                 {
                   title: '2장 빈 와이어링', // required
-                  path: '/book/spring-in-action/002_빈와이어링',
+                  path: '/book/spring-in-action/002_빈와이어링',
                 },
 
                 {
                   title: '3장 고급 와이어링', // required
-                  path: '/book/spring-in-action/003_고급와이어링',
+                  path: '/book/spring-in-action/003_고급와이어링',
                 },
 
                 {
@@ -274,7 +274,7 @@ module.exports = {
 
                 {
                   title: 'Nexus 구성', // required
-                  path: '/devops/Nexus_구성',
+                  path: '/devops/Nexus_구성',
                 },
 
                 {
