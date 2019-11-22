@@ -1,7 +1,7 @@
 module.exports = {
     title: '끄적끄적 블로그',
     description: '개발 관련 블로그',
-    base: '/blog/',
+    base: '/study-collection/',
     head: [
       ['link', { rel: 'icon', href: '/favicon.ico' }],
       [
