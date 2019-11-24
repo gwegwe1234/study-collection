@@ -1,8 +1,6 @@
 # Spring Exception 처리
 
-1. Controller level
-2. Global level
-3. Handler Exception Resolver level
+[[toc]]
 
 ## 1. Controller 레벨에서 처리
 Spring 에서 Controller에서 발생한 예외에 대해서 Common 하게 처리할 수 있는 기능 제공.

@@ -150,6 +150,11 @@ module.exports = {
                 {
                   title: '8장 스프링 웹플로로 작업하기', // required
                   path: '/book/spring-in-action/008',
+                },
+
+                {
+                  title: '9장 웹 어플리케이션 보안', // required
+                  path: '/book/spring-in-action/009',
                 }
               ]
             }
