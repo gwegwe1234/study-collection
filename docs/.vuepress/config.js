@@ -155,6 +155,11 @@ module.exports = {
                 {
                   title: '9장 웹 어플리케이션 보안', // required
                   path: '/book/spring-in-action/009',
+                },
+
+                {
+                  title: '10장 스프링과 JDBC를 사용하여 데이터베이스 사용하기', // required
+                  path: '/book/spring-in-action/010',
                 }
               ]
             }
