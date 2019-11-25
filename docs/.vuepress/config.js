@@ -104,6 +104,11 @@ module.exports = {
                 {
                   title: '9장 단위테스트', // required
                   path: '/book/clean-code/09',
+                },
+
+                {
+                  title: '10장 클래스', // required
+                  path: '/book/clean-code/10',
                 }
               ]
             },
@@ -231,6 +236,11 @@ module.exports = {
                 {
                   title: 'Webpack 기본개념', // required
                   path: '/programming/Webpack_Basic',
+                },
+
+                {
+                  title: '객체지향 설계 5원칙 SOLID', // required
+                  path: '/programming/Solid',
                 },
               ]
             },
