@@ -239,6 +239,11 @@ module.exports = {
                 },
 
                 {
+                  title: 'OOP', // required
+                  path: '/programming/OOP',
+                },
+
+                {
                   title: '객체지향 설계 5원칙 SOLID', // required
                   path: '/programming/Solid',
                 },
