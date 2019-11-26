@@ -114,6 +114,11 @@ module.exports = {
                 {
                   title: '11장 시스템', // required
                   path: '/book/clean-code/11',
+                },
+
+                {
+                  title: '12장 창발성', // required
+                  path: '/book/clean-code/12',
                 }
               ]
             },
