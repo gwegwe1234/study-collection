@@ -109,6 +109,11 @@ module.exports = {
                 {
                   title: '10장 클래스', // required
                   path: '/book/clean-code/10',
+                },
+
+                {
+                  title: '11장 시스템', // required
+                  path: '/book/clean-code/11',
                 }
               ]
             },
