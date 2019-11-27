@@ -119,6 +119,11 @@ module.exports = {
                 {
                   title: '12장 창발성', // required
                   path: '/book/clean-code/12',
+                },
+
+                {
+                  title: '13장 동시성', // required
+                  path: '/book/clean-code/13',
                 }
               ]
             },
