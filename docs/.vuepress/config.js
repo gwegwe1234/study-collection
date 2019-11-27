@@ -180,7 +180,12 @@ module.exports = {
                 {
                   title: '10장 스프링과 JDBC를 사용하여 데이터베이스 사용하기', // required
                   path: '/book/spring-in-action/010',
-                }
+                },
+
+                {
+                  title: '11장 객체 관계형 매핑을 통한 데이터 퍼시스팅', // required
+                  path: '/book/spring-in-action/011',
+                },
               ]
             }
 
