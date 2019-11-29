@@ -186,6 +186,11 @@ module.exports = {
                   title: '11장 객체 관계형 매핑을 통한 데이터 퍼시스팅', // required
                   path: '/book/spring-in-action/011',
                 },
+
+                {
+                  title: '12장 NoSQL 데이터베이스 사용하기', // required
+                  path: '/book/spring-in-action/012',
+                },
               ]
             }
 
