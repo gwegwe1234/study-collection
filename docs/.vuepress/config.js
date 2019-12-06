@@ -49,6 +49,10 @@ module.exports = {
                   title: '5장 자료구조', // required
                   path: '/book/JPIE/05',
                 },
+                {
+                  title: '6장 디자인 패턴', // required
+                  path: '/book/JPIE/06',
+                },
               ]
             },
 
