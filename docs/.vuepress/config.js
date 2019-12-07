@@ -53,6 +53,10 @@ module.exports = {
                   title: '6장 디자인 패턴', // required
                   path: '/book/JPIE/06',
                 },
+                {
+                  title: '7장 자주 묻는 면접 알고리즘 구현하기', // required
+                  path: '/book/JPIE/07',
+                },
               ]
             },
 
