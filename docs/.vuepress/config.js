@@ -204,6 +204,11 @@ module.exports = {
                   title: '13장 데이터 캐싱하기', // required
                   path: '/book/spring-in-action/013',
                 },
+
+                {
+                  title: '14장 시큐리티 메소드', // required
+                  path: '/book/spring-in-action/014',
+                },
               ]
             }
 
