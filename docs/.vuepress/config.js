@@ -199,6 +199,11 @@ module.exports = {
                   title: '12장 NoSQL 데이터베이스 사용하기', // required
                   path: '/book/spring-in-action/012',
                 },
+
+                {
+                  title: '13장 데이터 캐싱하기', // required
+                  path: '/book/spring-in-action/013',
+                },
               ]
             }
 
