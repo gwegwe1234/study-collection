@@ -210,7 +210,18 @@ module.exports = {
                   path: '/book/spring-in-action/014',
                 },
               ]
-            }
+            },
+
+            {
+              title: '고 인 액션',
+              sidebarDepth: 0,
+              children: [
+                {
+                  title: '1장 Go와의 첫 만남', // required
+                  path: '/book/go-in-action/01',
+                },
+              ]
+            },
 
           ]
         },
