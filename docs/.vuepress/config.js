@@ -223,6 +223,16 @@ module.exports = {
               ]
             },
 
+            {
+              title: '마이크로서비스 구축과 운영',
+              sidebarDepth: 0,
+              children: [
+                {
+                  title: '6장 모니터링', // required
+                  path: '/book/production-ready-microservices/06',
+                },
+              ]
+            },
           ]
         },
 
