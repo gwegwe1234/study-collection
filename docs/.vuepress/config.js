@@ -214,6 +214,11 @@ module.exports = {
                   title: '15장 원격 서비스 사용하기', // required
                   path: '/book/spring-in-action/015',
                 },
+
+                {
+                  title: '16장 스프링 MVC로 REST API 사용하기', // required
+                  path: '/book/spring-in-action/016',
+                },
               ]
             },
 
