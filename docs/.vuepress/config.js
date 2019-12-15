@@ -209,6 +209,11 @@ module.exports = {
                   title: '14장 시큐리티 메소드', // required
                   path: '/book/spring-in-action/014',
                 },
+
+                {
+                  title: '15장 원격 서비스 사용하기', // required
+                  path: '/book/spring-in-action/015',
+                },
               ]
             },
 
