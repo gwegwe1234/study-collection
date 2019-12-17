@@ -32,6 +32,11 @@ module.exports = {
       ],
       sidebar: [
         {
+          title: 'Intro',
+          path: '/guide',
+          collapsable: true,
+        },
+        {
           title: 'Book summary',   // required
           // optional, which should be a absolute path.
           collapsable: true, // optional, defaults to true
@@ -56,6 +61,10 @@ module.exports = {
                 {
                   title: '7장 자주 묻는 면접 알고리즘 구현하기', // required
                   path: '/book/JPIE/07',
+                },
+                {
+                  title: '8장 자바 기본', // required
+                  path: '/book/JPIE/08',
                 },
               ]
             },
