@@ -239,6 +239,11 @@ module.exports = {
                   title: '1장 Go와의 첫 만남', // required
                   path: '/book/go-in-action/01',
                 },
+
+                {
+                  title: '2장 Go 간단히 살펴보기', // required
+                  path: '/book/go-in-action/02',
+                },
               ]
             },
 
