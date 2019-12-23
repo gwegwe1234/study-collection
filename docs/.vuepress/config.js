@@ -232,6 +232,11 @@ module.exports = {
                   title: '16장 스프링 MVC로 REST API 사용하기', // required
                   path: '/book/spring-in-action/016',
                 },
+
+                {
+                  title: '17장 스프링 메시징', // required
+                  path: '/book/spring-in-action/017',
+                },
               ]
             },
 
