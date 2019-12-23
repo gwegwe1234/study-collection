@@ -66,6 +66,10 @@ module.exports = {
                   title: '8장 자바 기본', // required
                   path: '/book/JPIE/08',
                 },
+                {
+                  title: '9장 JUnit으로 테스팅하기', // required
+                  path: '/book/JPIE/09',
+                },
               ]
             },
 
