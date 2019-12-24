@@ -237,6 +237,11 @@ module.exports = {
                   title: '17장 스프링 메시징', // required
                   path: '/book/spring-in-action/017',
                 },
+
+                {
+                  title: '18장 WebSocket과 STOMP를 사용하여 메시징하기', // required
+                  path: '/book/spring-in-action/018',
+                },
               ]
             },
 
