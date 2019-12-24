@@ -258,6 +258,11 @@ module.exports = {
                   title: '2장 Go 간단히 살펴보기', // required
                   path: '/book/go-in-action/02',
                 },
+
+                {
+                  title: '3장 패키징과 내장 도구들', // required
+                  path: '/book/go-in-action/03',
+                },
               ]
             },
 
