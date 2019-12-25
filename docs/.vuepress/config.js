@@ -263,6 +263,11 @@ module.exports = {
                   title: '3장 패키징과 내장 도구들', // required
                   path: '/book/go-in-action/03',
                 },
+
+                {
+                  title: '4장 배열, 슬라이스, 맵', // required
+                  path: '/book/go-in-action/04',
+                },
               ]
             },
 
