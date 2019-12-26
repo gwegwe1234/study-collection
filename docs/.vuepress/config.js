@@ -268,6 +268,11 @@ module.exports = {
                   title: '4장 배열, 슬라이스, 맵', // required
                   path: '/book/go-in-action/04',
                 },
+
+                {
+                  title: '5장 Go의 타입 시스템', // required
+                  path: '/book/go-in-action/05',
+                },
               ]
             },
 
