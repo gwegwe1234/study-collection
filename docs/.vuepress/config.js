@@ -273,6 +273,11 @@ module.exports = {
                   title: '5장 Go의 타입 시스템', // required
                   path: '/book/go-in-action/05',
                 },
+
+                {
+                  title: '6장 동시성', // required
+                  path: '/book/go-in-action/06',
+                },
               ]
             },
 
