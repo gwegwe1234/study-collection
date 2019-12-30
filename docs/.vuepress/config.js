@@ -278,6 +278,11 @@ module.exports = {
                   title: '6장 동시성', // required
                   path: '/book/go-in-action/06',
                 },
+
+                {
+                  title: '7장 동시성 패턴', // required
+                  path: '/book/go-in-action/07',
+                },
               ]
             },
 
