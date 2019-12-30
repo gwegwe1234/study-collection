@@ -288,6 +288,11 @@ module.exports = {
                   title: '8장 표준 라이브러리', // required
                   path: '/book/go-in-action/08',
                 },
+
+                {
+                  title: '9장 테스트와 벤치마킹', // required
+                  path: '/book/go-in-action/09',
+                },
               ]
             },
 
