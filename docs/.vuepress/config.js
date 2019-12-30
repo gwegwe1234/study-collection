@@ -283,6 +283,11 @@ module.exports = {
                   title: '7장 동시성 패턴', // required
                   path: '/book/go-in-action/07',
                 },
+
+                {
+                  title: '8장 표준 라이브러리', // required
+                  path: '/book/go-in-action/08',
+                },
               ]
             },
 
