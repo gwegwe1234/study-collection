@@ -70,6 +70,10 @@ module.exports = {
                   title: '9장 JUnit으로 테스팅하기', // required
                   path: '/book/JPIE/09',
                 },
+                {
+                  title: '10장 자바 가상머신 이해하기', // required
+                  path: '/book/JPIE/10',
+                },
               ]
             },
 
