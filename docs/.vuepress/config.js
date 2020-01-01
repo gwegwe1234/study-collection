@@ -251,6 +251,11 @@ module.exports = {
                   title: '19장 이메일 전송을 위해 스프링 설정하기', // required
                   path: '/book/spring-in-action/019',
                 },
+
+                {
+                  title: '20장 JMX를 이용한 스프링 빈 관리', // required
+                  path: '/book/spring-in-action/020',
+                },
               ]
             },
 
