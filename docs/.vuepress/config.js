@@ -256,6 +256,11 @@ module.exports = {
                   title: '20장 JMX를 이용한 스프링 빈 관리', // required
                   path: '/book/spring-in-action/020',
                 },
+
+                {
+                  title: '21장 스프링 부트를 사용한 스프링 개발 간소화', // required
+                  path: '/book/spring-in-action/021',
+                },
               ]
             },
 
