@@ -74,6 +74,10 @@ module.exports = {
                   title: '10장 자바 가상머신 이해하기', // required
                   path: '/book/JPIE/10',
                 },
+                {
+                  title: '11장 동시성', // required
+                  path: '/book/JPIE/11',
+                },
               ]
             },
 
