@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>1강 | 끄적끄적 블로그</title>
+    <meta name="description" content="개발 관련 블로그">
+    <link rel="icon" href="/study-collection/favicon.ico">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons">
+    
+    <link rel="preload" href="/study-collection/assets/css/0.styles.48760978.css" as="style"><link rel="preload" href="/study-collection/assets/js/app.e8b95b65.js" as="script"><link rel="preload" href="/study-collection/assets/js/2.f91ae037.js" as="script"><link rel="preload" href="/study-collection/assets/js/53.8b69e99e.js" as="script"><link rel="prefetch" href="/study-collection/assets/js/10.ee2ef685.js"><link rel="prefetch" href="/study-collection/assets/js/11.b301a773.js"><link rel="prefetch" href="/study-collection/assets/js/12.d11da46b.js"><link rel="prefetch" href="/study-collection/assets/js/13.05cba25b.js"><link rel="prefetch" href="/study-collection/assets/js/14.4e089a11.js"><link rel="prefetch" href="/study-collection/assets/js/15.6409cb09.js"><link rel="prefetch" href="/study-collection/assets/js/16.2bf61687.js"><link rel="prefetch" href="/study-collection/assets/js/17.02c5472e.js"><link rel="prefetch" href="/study-collection/assets/js/18.93d21a73.js"><link rel="prefetch" href="/study-collection/assets/js/19.279e98dd.js"><link rel="prefetch" href="/study-collection/assets/js/20.497c76f1.js"><link rel="prefetch" href="/study-collection/assets/js/21.8feeda54.js"><link rel="prefetch" href="/study-collection/assets/js/22.c649ee2d.js"><link rel="prefetch" href="/study-collection/assets/js/23.62006ac4.js"><link rel="prefetch" href="/study-collection/assets/js/24.71fd0a7f.js"><link rel="prefetch" href="/study-collection/assets/js/25.0be7b2d6.js"><link rel="prefetch" href="/study-collection/assets/js/26.4b6b067e.js"><link rel="prefetch" href="/study-collection/assets/js/27.fbba45eb.js"><link rel="prefetch" href="/study-collection/assets/js/28.897af8a8.js"><link rel="prefetch" href="/study-collection/assets/js/29.db4506e4.js"><link rel="prefetch" href="/study-collection/assets/js/3.7db0f707.js"><link rel="prefetch" href="/study-collection/assets/js/30.4bdbf97c.js"><link rel="prefetch" href="/study-collection/assets/js/31.ed79033c.js"><link rel="prefetch" href="/study-collection/assets/js/32.3b3f3a68.js"><link rel="prefetch" href="/study-collection/assets/js/33.2f1cf203.js"><link rel="prefetch" href="/study-collection/assets/js/34.81be1e9e.js"><link rel="prefetch" href="/study-collection/assets/js/35.3c5aca49.js"><link rel="prefetch" href="/study-collection/assets/js/36.0140153d.js"><link rel="prefetch" href="/study-collection/assets/js/37.66893e7d.js"><link rel="prefetch" href="/study-collection/assets/js/38.46bf98ae.js"><link rel="prefetch" href="/study-collection/assets/js/39.4072dafa.js"><link rel="prefetch" href="/study-collection/assets/js/4.108afc19.js"><link rel="prefetch" href="/study-collection/assets/js/40.adf5e69d.js"><link rel="prefetch" href="/study-collection/assets/js/41.3f72fc93.js"><link rel="prefetch" href="/study-collection/assets/js/42.df6b0a9b.js"><link rel="prefetch" href="/study-collection/assets/js/43.8bc6c3eb.js"><link rel="prefetch" href="/study-collection/assets/js/44.311e3379.js"><link rel="prefetch" href="/study-collection/assets/js/45.c28cbb42.js"><link rel="prefetch" href="/study-collection/assets/js/46.9efa1825.js"><link rel="prefetch" href="/study-collection/assets/js/47.ca6b13ff.js"><link rel="prefetch" href="/study-collection/assets/js/48.c70078d4.js"><link rel="prefetch" href="/study-collection/assets/js/49.580b9ff8.js"><link rel="prefetch" href="/study-collection/assets/js/5.83d37119.js"><link rel="prefetch" href="/study-collection/assets/js/50.98c334a4.js"><link rel="prefetch" href="/study-collection/assets/js/51.cff400d8.js"><link rel="prefetch" href="/study-collection/assets/js/52.13a9198b.js"><link rel="prefetch" href="/study-collection/assets/js/54.e05b1c51.js"><link rel="prefetch" href="/study-collection/assets/js/55.f3e23fd5.js"><link rel="prefetch" href="/study-collection/assets/js/56.8beb198a.js"><link rel="prefetch" href="/study-collection/assets/js/57.4b3a91fc.js"><link rel="prefetch" href="/study-collection/assets/js/58.bea09fec.js"><link rel="prefetch" href="/study-collection/assets/js/59.f8d517cd.js"><link rel="prefetch" href="/study-collection/assets/js/6.a99ff767.js"><link rel="prefetch" href="/study-collection/assets/js/60.27b34bb9.js"><link rel="prefetch" href="/study-collection/assets/js/61.3ced0431.js"><link rel="prefetch" href="/study-collection/assets/js/62.96bc7c86.js"><link rel="prefetch" href="/study-collection/assets/js/63.92c4bc9e.js"><link rel="prefetch" href="/study-collection/assets/js/64.9f627954.js"><link rel="prefetch" href="/study-collection/assets/js/65.59fef6b0.js"><link rel="prefetch" href="/study-collection/assets/js/66.28f9bfdc.js"><link rel="prefetch" href="/study-collection/assets/js/67.658116fe.js"><link rel="prefetch" href="/study-collection/assets/js/68.27f98110.js"><link rel="prefetch" href="/study-collection/assets/js/69.e4c06c8b.js"><link rel="prefetch" href="/study-collection/assets/js/7.5d1dc4e3.js"><link rel="prefetch" href="/study-collection/assets/js/70.e7b0a20b.js"><link rel="prefetch" href="/study-collection/assets/js/71.84747d69.js"><link rel="prefetch" href="/study-collection/assets/js/72.4b0cd8c6.js"><link rel="prefetch" href="/study-collection/assets/js/73.38034e97.js"><link rel="prefetch" href="/study-collection/assets/js/74.e210c822.js"><link rel="prefetch" href="/study-collection/assets/js/75.8523d796.js"><link rel="prefetch" href="/study-collection/assets/js/76.ef8c175b.js"><link rel="prefetch" href="/study-collection/assets/js/77.812ffc1f.js"><link rel="prefetch" href="/study-collection/assets/js/78.23db4464.js"><link rel="prefetch" href="/study-collection/assets/js/79.856d2b02.js"><link rel="prefetch" href="/study-collection/assets/js/8.5bd0ad7f.js"><link rel="prefetch" href="/study-collection/assets/js/80.3604438f.js"><link rel="prefetch" href="/study-collection/assets/js/81.66c42e32.js"><link rel="prefetch" href="/study-collection/assets/js/82.2a3fe668.js"><link rel="prefetch" href="/study-collection/assets/js/83.296c1b99.js"><link rel="prefetch" href="/study-collection/assets/js/84.32cd39e5.js"><link rel="prefetch" href="/study-collection/assets/js/85.9fdfe9c6.js"><link rel="prefetch" href="/study-collection/assets/js/86.9ef40f0b.js"><link rel="prefetch" href="/study-collection/assets/js/87.e1e531a2.js"><link rel="prefetch" href="/study-collection/assets/js/88.163e4d16.js"><link rel="prefetch" href="/study-collection/assets/js/9.269be3a2.js">
+    <link rel="stylesheet" href="/study-collection/assets/css/0.styles.48760978.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/study-collection/" class="home-link router-link-active"><!----> <span class="site-name">끄적끄적 블로그</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/study-collection/guide.html" class="nav-link">Guide</a></div><div class="nav-item"><a href="https://github.com/gwegwe1234/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/study-collection/guide.html" class="nav-link">Guide</a></div><div class="nav-item"><a href="https://github.com/gwegwe1234/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/study-collection/guide.html" class="sidebar-link">Intro</a></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>Book summary</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>자바 프로그래밍 면접 이렇게 준비한다</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>클린코드</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>스프링 인 액션</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>고 인 액션</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading open"><span>Go 언어를 활용한 마이크로서비스 개발</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/study-collection/book/Building-Microservice-With-Go/01.html" class="active sidebar-link">1장 마이크로서비스 소개</a></li></ul></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>마이크로서비스 구축과 운영</span> <span class="arrow right"></span></p> <!----></section></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Tech</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="_1강"><a href="#_1강" class="header-anchor">#</a> 1강</h1> <p></p><div class="table-of-contents"><ul><li><a href="#net-http로-간단한-웹-서버-만들기">net/http로 간단한 웹 서버 만들기</a></li><li><a href="#json-앍고-쓰기">JSON 앍고 쓰기</a><ul><li><a href="#go-구조체를-json으로-마샬링하기">Go 구조체를 JSON으로 마샬링하기</a></li><li><a href="#json을-go-구조체로-언마샬링하기">JSON을 Go 구조체로 언마샬링하기</a></li><li><a href="#net-http를-사용한-라우팅">net/http를 사용한 라우팅</a></li><li><a href="#경로">경로</a></li><li><a href="#편리한-핸들러">편리한 핸들러</a></li><li><a href="#fileserver">FileServer</a></li><li><a href="#notfoundhandler">NotFoundHandler</a></li><li><a href="#redirecthandler">RedirectHandler</a></li><li><a href="#stripprefix">StripPrefix</a></li><li><a href="#timeouthandler">TimeoutHandler</a></li><li><a href="#핸들러-만들기">핸들러 만들기</a></li></ul></li><li><a href="#컨텍스트">컨텍스트</a><ul><li><a href="#background">Background</a></li><li><a href="#withcancel">WithCancel</a></li><li><a href="#withdeadline">WithDeadline</a></li><li><a href="#withtimeout">WithTimeout</a></li><li><a href="#withvalue">WithValue</a></li><li><a href="#컨텍스트-사용하기">컨텍스트 사용하기.</a></li></ul></li><li><a href="#go-표준-라이브러리의-rpc">Go 표준 라이브러리의 RPC</a><ul><li><a href="#간단한-rpc-예제">간단한 RPC 예제</a></li><li><a href="#http를-통한-rpc">HTTP를 통한 RPC</a></li><li><a href="#http를-통한-json-rpc">HTTP를 통한 JSON-RPC</a></li></ul></li></ul></div><p></p> <h2 id="net-http로-간단한-웹-서버-만들기"><a href="#net-http로-간단한-웹-서버-만들기" class="header-anchor">#</a> net/http로 간단한 웹 서버 만들기</h2> <ul><li>hello world 예제로 시작한다.</li></ul> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">package</span> main
+
+<span class="token keyword">import</span> <span class="token punctuation">(</span>
+	<span class="token string">&quot;fmt&quot;</span>
+	<span class="token string">&quot;log&quot;</span>
+	<span class="token string">&quot;net/http&quot;</span>
+<span class="token punctuation">)</span>
+
+<span class="token keyword">func</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>  <span class="token punctuation">{</span>
+	port <span class="token operator">:=</span> <span class="token number">8081</span>
+	http<span class="token punctuation">.</span><span class="token function">HandleFunc</span><span class="token punctuation">(</span><span class="token string">&quot;/helloworld&quot;</span><span class="token punctuation">,</span> helloWorldHandler<span class="token punctuation">)</span>
+
+	log<span class="token punctuation">.</span><span class="token function">Printf</span><span class="token punctuation">(</span><span class="token string">&quot;Server starting on port %v\n&quot;</span><span class="token punctuation">,</span> <span class="token number">8081</span><span class="token punctuation">)</span>
+	log<span class="token punctuation">.</span><span class="token function">Fatal</span><span class="token punctuation">(</span>http<span class="token punctuation">.</span><span class="token function">ListenAndServe</span><span class="token punctuation">(</span>fmt<span class="token punctuation">.</span><span class="token function">Sprintf</span><span class="token punctuation">(</span><span class="token string">&quot;:%v&quot;</span><span class="token punctuation">,</span> port<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token boolean">nil</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token function">helloWorldHandler</span><span class="token punctuation">(</span>w http<span class="token punctuation">.</span>ResponseWriter<span class="token punctuation">,</span> r <span class="token operator">*</span>http<span class="token punctuation">.</span>Request<span class="token punctuation">)</span>  <span class="token punctuation">{</span>
+	fmt<span class="token punctuation">.</span><span class="token function">Fprintf</span><span class="token punctuation">(</span>w<span class="token punctuation">,</span> <span class="token string">&quot;Hello World!\n&quot;</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ul><li>처음 하는 작업은 http 패키지에서 HandleFunc 메소드를 호출하는 것</li> <li>HandleFunc 메소드는 첫 번째 매개 변수로 전달된 경로를 받고, 두 번째 매개 변수로 전달되는 함수에 매핑해 DefaultServeMux 핸들러에 Handler 타입을 만든다.</li> <li>log.Fatal(http.ListenAndServe(fmt.Sprintf(&quot;:%v&quot;, port), nil)) 로 Http 서버를 실행한다.</li> <li>ListenAndServe 가 서버를 시작하지 못하면 에러를 발생시킨다.</li></ul> <h2 id="json-앍고-쓰기"><a href="#json-앍고-쓰기" class="header-anchor">#</a> JSON 앍고 쓰기</h2> <ul><li>내장 표준 라이브러리인 encoding/json 패키지를 사용하면 JSON과 Go 타입 사이의 인코딩 및 디코딩 작업이 가능하다.</li></ul> <h3 id="go-구조체를-json으로-마샬링하기"><a href="#go-구조체를-json으로-마샬링하기" class="header-anchor">#</a> Go 구조체를 JSON으로 마샬링하기</h3> <ul><li>JSON 데이터를 인코딩하기 위해 encoding/json 패키지는 다음과 같은 시그니처를 갖는 마샬링 함수를 제공한다.</li></ul> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">func</span> <span class="token function">Marshal</span><span class="token punctuation">(</span>v <span class="token keyword">interface</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token builtin">byte</span><span class="token punctuation">,</span> <span class="token builtin">error</span><span class="token punctuation">)</span>
+</code></pre></div><ul><li>Go 언어는 에러가 발생하면 panic 함수를 발생시켜 프로그램을 종료시키고, 호출한 함수쪽으로 상세한 에러 객체를 리턴한다.</li> <li>마샬링 함수도 이런식으로 구현되어, 문제가 없을시엔 nil, 있을시엔 에러 객체를 뱉어낸다.</li></ul> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">package</span> main
+
+<span class="token keyword">import</span> <span class="token punctuation">(</span>
+	<span class="token string">&quot;encoding/json&quot;</span>
+	<span class="token string">&quot;fmt&quot;</span>
+	<span class="token string">&quot;log&quot;</span>
+	<span class="token string">&quot;net/http&quot;</span>
+<span class="token punctuation">)</span>
+
+<span class="token keyword">type</span> helloWorldResponse <span class="token keyword">struct</span> <span class="token punctuation">{</span>
+	Message <span class="token builtin">string</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>  <span class="token punctuation">{</span>
+	port <span class="token operator">:=</span> <span class="token number">8081</span>
+	http<span class="token punctuation">.</span><span class="token function">HandleFunc</span><span class="token punctuation">(</span><span class="token string">&quot;/jsonEncoding&quot;</span><span class="token punctuation">,</span> helloWorldHandlerWithJson<span class="token punctuation">)</span>
+
+	log<span class="token punctuation">.</span><span class="token function">Printf</span><span class="token punctuation">(</span><span class="token string">&quot;Server starting on port %v&quot;</span><span class="token punctuation">,</span> port<span class="token punctuation">)</span>
+	log<span class="token punctuation">.</span><span class="token function">Fatal</span><span class="token punctuation">(</span>http<span class="token punctuation">.</span><span class="token function">ListenAndServe</span><span class="token punctuation">(</span>fmt<span class="token punctuation">.</span><span class="token function">Sprintf</span><span class="token punctuation">(</span><span class="token string">&quot;:%v&quot;</span><span class="token punctuation">,</span>port<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token boolean">nil</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token function">helloWorldHandlerWithJson</span><span class="token punctuation">(</span>w http<span class="token punctuation">.</span>ResponseWriter<span class="token punctuation">,</span> r <span class="token operator">*</span>http<span class="token punctuation">.</span>Request<span class="token punctuation">)</span>  <span class="token punctuation">{</span>
+	response <span class="token operator">:=</span> helloWorldResponse<span class="token punctuation">{</span>Message<span class="token punctuation">:</span> <span class="token string">&quot;Hello World!&quot;</span><span class="token punctuation">}</span>
+	data<span class="token punctuation">,</span> err <span class="token operator">:=</span> json<span class="token punctuation">.</span><span class="token function">Marshal</span><span class="token punctuation">(</span>response<span class="token punctuation">)</span>
+
+	<span class="token keyword">if</span> err <span class="token operator">!=</span> <span class="token boolean">nil</span> <span class="token punctuation">{</span>
+		<span class="token function">panic</span><span class="token punctuation">(</span><span class="token string">&quot;Panic Occured!&quot;</span><span class="token punctuation">)</span>
+	<span class="token punctuation">}</span>
+
+	fmt<span class="token punctuation">.</span><span class="token function">Fprintf</span><span class="token punctuation">(</span>w<span class="token punctuation">,</span> <span class="token function">string</span><span class="token punctuation">(</span>data<span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token punctuation">{</span>
+  <span class="token string">&quot;Message&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;Hello World!&quot;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ul><li>리턴하기 전에 Marshal 함수를 통해 JSON 형태로 마샬링을 해준다.</li> <li>만약 json 리턴 형식을 커스터마이징을 하고싶으면 다음과 같이 구조체 설정을 바꿔주면 된다.</li></ul> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">type</span> helloWorldResponse <span class="token keyword">struct</span> <span class="token punctuation">{</span>
+	Message <span class="token builtin">string</span> <span class="token string">`json:&quot;message&quot;`</span>
+<span class="token punctuation">}</span>
+
+<span class="token punctuation">{</span>
+  <span class="token string">&quot;message&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;Hello World!&quot;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ul><li>이러한 필드 태그를 사용해 json 타입 출력을 제어해 줄수 있는데, 타입변환도 되고 필요 없으면 출력을 안하게 할 수도 있다.</li></ul> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">package</span> main
+
+<span class="token keyword">import</span> <span class="token punctuation">(</span>
+	<span class="token string">&quot;encoding/json&quot;</span>
+	<span class="token string">&quot;fmt&quot;</span>
+	<span class="token string">&quot;log&quot;</span>
+	<span class="token string">&quot;net/http&quot;</span>
+<span class="token punctuation">)</span>
+
+<span class="token keyword">type</span> helloWorldResponse <span class="token keyword">struct</span> <span class="token punctuation">{</span>
+	<span class="token comment">// 출력 필드를 message 로 바꾼다</span>
+	Message <span class="token builtin">string</span> <span class="token string">`json:&quot;message&quot;`</span>
+
+	<span class="token comment">// 이 필드를 출력하지 않는다. - 사용</span>
+	Author <span class="token builtin">string</span> <span class="token string">`json:&quot;-&quot;`</span>
+
+	<span class="token comment">// 값이 비어 있으면 출력하지 않는다.</span>
+	Date <span class="token builtin">string</span> <span class="token string">`json:&quot;,omitempty&quot;`</span>
+
+	<span class="token comment">// 출력을 문자열로 변환하고 이름을 &quot;id&quot;로 바꾼다.</span>
+	Id <span class="token builtin">int</span> <span class="token string">`json:&quot;id,string&quot;`</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>  <span class="token punctuation">{</span>
+	port <span class="token operator">:=</span> <span class="token number">8081</span>
+	http<span class="token punctuation">.</span><span class="token function">HandleFunc</span><span class="token punctuation">(</span><span class="token string">&quot;/jsonEncoding&quot;</span><span class="token punctuation">,</span> helloWorldHandlerWithJson<span class="token punctuation">)</span>
+
+	log<span class="token punctuation">.</span><span class="token function">Printf</span><span class="token punctuation">(</span><span class="token string">&quot;Server starting on port %v&quot;</span><span class="token punctuation">,</span> port<span class="token punctuation">)</span>
+	log<span class="token punctuation">.</span><span class="token function">Fatal</span><span class="token punctuation">(</span>http<span class="token punctuation">.</span><span class="token function">ListenAndServe</span><span class="token punctuation">(</span>fmt<span class="token punctuation">.</span><span class="token function">Sprintf</span><span class="token punctuation">(</span><span class="token string">&quot;:%v&quot;</span><span class="token punctuation">,</span>port<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token boolean">nil</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token function">helloWorldHandlerWithJson</span><span class="token punctuation">(</span>w http<span class="token punctuation">.</span>ResponseWriter<span class="token punctuation">,</span> r <span class="token operator">*</span>http<span class="token punctuation">.</span>Request<span class="token punctuation">)</span>  <span class="token punctuation">{</span>
+	response <span class="token operator">:=</span> helloWorldResponse<span class="token punctuation">{</span>Message<span class="token punctuation">:</span> <span class="token string">&quot;Hello World!&quot;</span><span class="token punctuation">,</span> Author<span class="token punctuation">:</span> <span class="token string">&quot;ted.park&quot;</span><span class="token punctuation">,</span> Id <span class="token punctuation">:</span> <span class="token number">3</span><span class="token punctuation">}</span>
+	data<span class="token punctuation">,</span> err <span class="token operator">:=</span> json<span class="token punctuation">.</span><span class="token function">Marshal</span><span class="token punctuation">(</span>response<span class="token punctuation">)</span>
+
+	<span class="token keyword">if</span> err <span class="token operator">!=</span> <span class="token boolean">nil</span> <span class="token punctuation">{</span>
+		<span class="token function">panic</span><span class="token punctuation">(</span><span class="token string">&quot;Panic Occured!&quot;</span><span class="token punctuation">)</span>
+	<span class="token punctuation">}</span>
+
+	fmt<span class="token punctuation">.</span><span class="token function">Fprintf</span><span class="token punctuation">(</span>w<span class="token punctuation">,</span> <span class="token function">string</span><span class="token punctuation">(</span>data<span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token punctuation">{</span>
+  <span class="token string">&quot;message&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;Hello World!&quot;</span><span class="token punctuation">,</span>
+  <span class="token string">&quot;id&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;3&quot;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ul><li>채널, 복소수, 순환 데이터구조 및 함수는 JSON 인코딩이 불가능하다.</li> <li>구조체가 순환 참조를 포함하고 잇으면 Marshal은 무한 재귀를 일으켜 쓰면 안된다.</li> <li>들여쓰기로 깔끔하게 양식을 지정하고 싶으면, MarshalIndent 함수를 사용하면 된다.</li> <li>문자열에 추가 매개 변수를 전달해서 들여쓰기를 원하는 항목을 공백 두칸을 지정하면 된다.</li></ul> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">func</span> <span class="token function">MarshalIndent</span><span class="token punctuation">(</span>v <span class="token keyword">interface</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span> prefix<span class="token punctuation">,</span> indent <span class="token builtin">string</span><span class="token punctuation">)</span> <span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token builtin">byte</span><span class="token punctuation">,</span> <span class="token builtin">error</span><span class="token punctuation">)</span>
+</code></pre></div><ul><li>위의 함수는 byte 배열로 디코딩한 후에, 리스폰스 스트림에 쓴다.</li> <li>이런 구조는 효율적이지도 않으므로, ResponseWriter에 있는 스트림은 그것을 사용하면 된다.</li> <li>ResponseWriter는 세가지 메소드를 정의하는 인터페이스</li></ul> <div class="language-go extra-class"><pre class="language-go"><code><span class="token comment">// WriteHeader 메소드를 통해서 전송될 헤더들의 맵을 리턴</span>
+<span class="token function">Header</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+<span class="token comment">// 연결(connection)에 데이터를 쓴다. WriteHeader 메소드가 아직 호출되지 않았다면, </span>
+<span class="token comment">// Write 메ㅗ드는 WriteHeader(http.StatusOK)를 호출 한다.</span>
+<span class="token function">Write</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token builtin">byte</span><span class="token punctuation">)</span> <span class="token punctuation">(</span><span class="token builtin">int</span><span class="token punctuation">,</span> <span class="token builtin">error</span><span class="token punctuation">)</span>
+
+<span class="token comment">// 상태 코드를 포함한 HTTP 응답 헤더를 전송한다.</span>
+<span class="token function">WriteHeader</span><span class="token punctuation">(</span><span class="token builtin">int</span><span class="token punctuation">)</span>
+</code></pre></div><ul><li>ResponseWriter 인터페이스는 Writer의 write 함수를 구현하고 있으므로, ResponseWriter를 구현하는 모든 객체는 io.Writer가 필요한 fmt.Fprintf(w io.Writer, a ... interface{}) 의 매개변수로 활용이 가능하다.</li> <li>데이터를 리턴하기 전에 임시 객체에 마샬링 하지 않고 바로 출력 스트림으로 데이터를 보내는 방법은 어떤걸까?</li> <li>NewEconder 라는 함수를 사용하면, 열려 있는 writer에 JSON을 바로 쓸 수있는 Encoder 객체를 리턴한다.</li></ul> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">func</span> <span class="token function">NewEncoder</span><span class="token punctuation">(</span>w io<span class="token punctuation">.</span>Writer<span class="token punctuation">)</span> <span class="token operator">*</span>Encoder
+</code></pre></div><ul><li>이제 Marshal의 결과를 바이트 배열에 저장하지 않고, HTTP 응답에다가 바로 넣어줄 수 있다.</li></ul> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">func</span> <span class="token function">helloWorldHandlerWithJson</span><span class="token punctuation">(</span>w http<span class="token punctuation">.</span>ResponseWriter<span class="token punctuation">,</span> r <span class="token operator">*</span>http<span class="token punctuation">.</span>Request<span class="token punctuation">)</span>  <span class="token punctuation">{</span>
+	response <span class="token operator">:=</span> helloWorldResponse<span class="token punctuation">{</span>Message<span class="token punctuation">:</span> <span class="token string">&quot;Hello World!&quot;</span><span class="token punctuation">,</span> Author<span class="token punctuation">:</span> <span class="token string">&quot;ted.park&quot;</span><span class="token punctuation">,</span> Id <span class="token punctuation">:</span> <span class="token number">3</span><span class="token punctuation">}</span>
+	encoder <span class="token operator">:=</span> json<span class="token punctuation">.</span><span class="token function">NewEncoder</span><span class="token punctuation">(</span>w<span class="token punctuation">)</span>
+	encoder<span class="token punctuation">.</span><span class="token function">Encode</span><span class="token punctuation">(</span><span class="token operator">&amp;</span>response<span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ul><li>이런식으로, NewEncoder 함수를 사용해, http.ResponseWriter 형 파라미터를 인코딩을 해주고, 거기에 response를 넣어주면 자동적으로 json 형태로 바뀌게 된다.</li></ul> <h3 id="json을-go-구조체로-언마샬링하기"><a href="#json을-go-구조체로-언마샬링하기" class="header-anchor">#</a> JSON을 Go 구조체로 언마샬링하기</h3> <ul><li>입력값을 JSON -&gt; Go 구조체로 바꿔야 할 경우도 있다.</li> <li>마샬링과 비슷하게 언마샬링 함수를 제공한다.</li></ul> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">func</span> <span class="token function">Unmarshal</span><span class="token punctuation">(</span>data <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token builtin">byte</span><span class="token punctuation">,</span> v <span class="token keyword">interface</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token builtin">error</span>
+</code></pre></div><ul><li>JSON데이터를 넣어줄 새로운 구조체를 필드에 만들어야 한다.</li> <li>Unmarshal은 Interface{}로 디코딩이 된다.</li> <li>JSON이 객체인지 배열인지에 따라 JSON 객체 타입은 map[string]interface{}로, JSON 배열은 []interface{} 로 자동 디코딩한다.</li></ul> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">type</span> helloWorldRequest <span class="token keyword">struct</span> <span class="token punctuation">{</span>
+	Name <span class="token builtin">string</span> <span class="token string">`json:&quot;name&quot;`</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ul><li>이런식으로 Request 구조체를 설정해준다.</li> <li>아래는 http.Request의 구조이다.</li></ul> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">type</span> Requests <span class="token keyword">struct</span> <span class="token punctuation">{</span>
+    <span class="token operator">...</span>
+
+    <span class="token comment">// Method 는 HTTP 요청 방식을 지정한다. (GET, POST..)</span>
+    Method <span class="token builtin">string</span>
+
+    <span class="token comment">// Header는 서버가 수신한 요청 헤더 필드를 갖고있음</span>
+    <span class="token comment">// 헤더 타입은 map[string] []string</span>
+    Header header
+
+    <span class="token comment">// Body는 요청의 본문</span>
+    Body io<span class="token punctuation">.</span>ReaderCloser
+    
+    <span class="token operator">...</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ul><li>요청과 함께 전달된 JSON은 Body 필드에서 확인이 가능하다.</li></ul> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">package</span> main
+
+<span class="token keyword">import</span> <span class="token punctuation">(</span>
+	<span class="token string">&quot;encoding/json&quot;</span>
+	<span class="token string">&quot;fmt&quot;</span>
+	<span class="token string">&quot;io/ioutil&quot;</span>
+	<span class="token string">&quot;log&quot;</span>
+	<span class="token string">&quot;net/http&quot;</span>
+<span class="token punctuation">)</span>
+
+<span class="token keyword">type</span> helloWorldRequest <span class="token keyword">struct</span> <span class="token punctuation">{</span>
+	Name <span class="token builtin">string</span> <span class="token string">`json:&quot;name&quot;`</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">type</span> helloWorldResponse <span class="token keyword">struct</span> <span class="token punctuation">{</span>
+	Message <span class="token builtin">string</span> <span class="token string">`json:&quot;message&quot;`</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>  <span class="token punctuation">{</span>
+	port <span class="token operator">:=</span> <span class="token number">8081</span>
+	http<span class="token punctuation">.</span><span class="token function">HandleFunc</span><span class="token punctuation">(</span><span class="token string">&quot;/jsonEncoding&quot;</span><span class="token punctuation">,</span> helloWorldHandler<span class="token punctuation">)</span>
+
+	log<span class="token punctuation">.</span><span class="token function">Printf</span><span class="token punctuation">(</span><span class="token string">&quot;Server starting on port %v&quot;</span><span class="token punctuation">,</span> port<span class="token punctuation">)</span>
+	log<span class="token punctuation">.</span><span class="token function">Fatal</span><span class="token punctuation">(</span>http<span class="token punctuation">.</span><span class="token function">ListenAndServe</span><span class="token punctuation">(</span>fmt<span class="token punctuation">.</span><span class="token function">Sprintf</span><span class="token punctuation">(</span><span class="token string">&quot;:%v&quot;</span><span class="token punctuation">,</span>port<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token boolean">nil</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token function">helloWorldHandler</span><span class="token punctuation">(</span>w http<span class="token punctuation">.</span>ResponseWriter<span class="token punctuation">,</span> r <span class="token operator">*</span>http<span class="token punctuation">.</span>Request<span class="token punctuation">)</span>  <span class="token punctuation">{</span>
+	body<span class="token punctuation">,</span> err <span class="token operator">:=</span> ioutil<span class="token punctuation">.</span><span class="token function">ReadAll</span><span class="token punctuation">(</span>r<span class="token punctuation">.</span>Body<span class="token punctuation">)</span>
+	<span class="token keyword">if</span> err <span class="token operator">!=</span> <span class="token boolean">nil</span> <span class="token punctuation">{</span>
+		http<span class="token punctuation">.</span><span class="token function">Error</span><span class="token punctuation">(</span>w<span class="token punctuation">,</span> <span class="token string">&quot;Bad Request!&quot;</span><span class="token punctuation">,</span> http<span class="token punctuation">.</span>StatusBadRequest<span class="token punctuation">)</span>
+		<span class="token keyword">return</span>
+	<span class="token punctuation">}</span>
+
+	<span class="token keyword">var</span> request helloWorldRequest
+	err <span class="token operator">=</span> json<span class="token punctuation">.</span><span class="token function">Unmarshal</span><span class="token punctuation">(</span>body<span class="token punctuation">,</span> <span class="token operator">&amp;</span>request<span class="token punctuation">)</span>
+	<span class="token keyword">if</span> err <span class="token operator">!=</span> <span class="token boolean">nil</span> <span class="token punctuation">{</span>
+		http<span class="token punctuation">.</span><span class="token function">Error</span><span class="token punctuation">(</span>w<span class="token punctuation">,</span> <span class="token string">&quot;Bad Request!&quot;</span><span class="token punctuation">,</span> http<span class="token punctuation">.</span>StatusBadRequest<span class="token punctuation">)</span>
+		<span class="token keyword">return</span>
+	<span class="token punctuation">}</span>
+
+	response <span class="token operator">:=</span> helloWorldResponse<span class="token punctuation">{</span>Message<span class="token punctuation">:</span> <span class="token string">&quot;hello&quot;</span> <span class="token operator">+</span> request<span class="token punctuation">.</span>Name<span class="token punctuation">}</span>
+
+	encoder <span class="token operator">:=</span> json<span class="token punctuation">.</span><span class="token function">NewEncoder</span><span class="token punctuation">(</span>w<span class="token punctuation">)</span>
+	encoder<span class="token punctuation">.</span><span class="token function">Encode</span><span class="token punctuation">(</span>response<span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+
+curl localhost<span class="token punctuation">:</span><span class="token number">8081</span><span class="token operator">/</span>jsonEncoding <span class="token operator">-</span>d <span class="token string">'{&quot;name&quot;:&quot;ted&quot;}'</span>
+<span class="token punctuation">{</span><span class="token string">&quot;message&quot;</span><span class="token punctuation">:</span><span class="token string">&quot;helloted&quot;</span><span class="token punctuation">}</span>
+</code></pre></div><ul><li>Encoder처럼 Decoder를 사용하면 성능이 향상된다.</li></ul> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">func</span> <span class="token function">helloWorldHandler</span><span class="token punctuation">(</span>w http<span class="token punctuation">.</span>ResponseWriter<span class="token punctuation">,</span> r <span class="token operator">*</span>http<span class="token punctuation">.</span>Request<span class="token punctuation">)</span>  <span class="token punctuation">{</span>
+	<span class="token keyword">var</span> request helloWorldRequest
+	decoder <span class="token operator">:=</span> json<span class="token punctuation">.</span><span class="token function">NewDecoder</span><span class="token punctuation">(</span>r<span class="token punctuation">.</span>Body<span class="token punctuation">)</span>
+
+	err <span class="token operator">:=</span> decoder<span class="token punctuation">.</span><span class="token function">Decode</span><span class="token punctuation">(</span><span class="token operator">&amp;</span>request<span class="token punctuation">)</span>
+
+	<span class="token keyword">if</span> err <span class="token operator">!=</span> <span class="token boolean">nil</span> <span class="token punctuation">{</span>
+		http<span class="token punctuation">.</span><span class="token function">Error</span><span class="token punctuation">(</span>w<span class="token punctuation">,</span> <span class="token string">&quot;Bad Request!&quot;</span><span class="token punctuation">,</span> http<span class="token punctuation">.</span>StatusBadRequest<span class="token punctuation">)</span>
+		<span class="token keyword">return</span>
+	<span class="token punctuation">}</span>
+
+	response <span class="token operator">:=</span> helloWorldResponse<span class="token punctuation">{</span>Message<span class="token punctuation">:</span> <span class="token string">&quot;hello&quot;</span> <span class="token operator">+</span> request<span class="token punctuation">.</span>Name<span class="token punctuation">}</span>
+
+	encoder <span class="token operator">:=</span> json<span class="token punctuation">.</span><span class="token function">NewEncoder</span><span class="token punctuation">(</span>w<span class="token punctuation">)</span>
+	encoder<span class="token punctuation">.</span><span class="token function">Encode</span><span class="token punctuation">(</span>response<span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="net-http를-사용한-라우팅"><a href="#net-http를-사용한-라우팅" class="header-anchor">#</a> net/http를 사용한 라우팅</h3> <ul><li>요청된 경로나 요청 방식에 따라 다른 핸드러로 요청을 라우팅을 할 필요가 있다.</li> <li>ServerMux의 인스턴스인 DefaultServeMux에서 해준다.</li> <li>Go Http 서버에는 지정된 라우터는 따로 없고 대신 http.Handler 인터페이스를 구현한 객체가 Listen() 함수의 최상위 함수로 전달된다.</li> <li>다중 경로 처리를 용이하게 하기 위해 HTTP 패키지에는 http.Handler를 구현하는 ServerMux라는 특수 객체가 있다.</li></ul> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">func</span> <span class="token function">HandlerFunc</span><span class="token punctuation">(</span>pattern <span class="token builtin">string</span><span class="token punctuation">,</span> handler <span class="token keyword">func</span><span class="token punctuation">(</span>ResonseWriter<span class="token punctuation">,</span> <span class="token operator">*</span>Request<span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token keyword">func</span> <span class="token function">Handle</span><span class="token punctuation">(</span>pattern <span class="token builtin">string</span><span class="token punctuation">,</span> handler Handler<span class="token punctuation">)</span>
+</code></pre></div><h3 id="경로"><a href="#경로" class="header-anchor">#</a> 경로</h3> <ul><li>ServeMux가 인바운드 요청을 등록된 핸들러로 라우팅하는 방법이 있다.</li></ul> <div class="language-go extra-class"><pre class="language-go"><code>http<span class="token punctuation">.</span><span class="token function">Handle</span><span class="token punctuation">(</span><span class="token string">&quot;/images/&quot;</span><span class="token punctuation">,</span> <span class="token function">newFooHandler</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+http<span class="token punctuation">.</span><span class="token function">Handle</span><span class="token punctuation">(</span><span class="token string">&quot;/images/persian/&quot;</span><span class="token punctuation">,</span> <span class="token function">newBarHandler</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+http<span class="token punctuation">.</span><span class="token function">Handle</span><span class="token punctuation">(</span><span class="token string">&quot;/images&quot;</span><span class="token punctuation">,</span> <span class="token function">newBuzzHandler</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+<span class="token operator">/</span>images <span class="token operator">=</span><span class="token operator">&gt;</span> Buzz
+<span class="token operator">/</span>images<span class="token operator">/</span> <span class="token operator">=</span><span class="token operator">&gt;</span> Foo
+<span class="token operator">/</span>images<span class="token operator">/</span>cat <span class="token operator">=</span><span class="token operator">&gt;</span> Foo
+<span class="token operator">/</span>images<span class="token operator">/</span>cat<span class="token punctuation">.</span>jpg <span class="token operator">=</span><span class="token operator">&gt;</span> Foo
+<span class="token operator">/</span>images<span class="token operator">/</span>persian<span class="token operator">/</span>cat<span class="token punctuation">.</span>jpg <span class="token operator">=</span><span class="token operator">&gt;</span> Bar
+</code></pre></div><ul><li>긴 경로는 짧은 경로보다 우선순위가 높다.</li></ul> <h3 id="편리한-핸들러"><a href="#편리한-핸들러" class="header-anchor">#</a> 편리한 핸들러</h3> <ul><li>net/http는 여러가지 편리한 핸들러를 제공한다.</li></ul> <h3 id="fileserver"><a href="#fileserver" class="header-anchor">#</a> FileServer</h3> <ul><li>FileServer 함수는 HTTP 요청에 대해 파일 시스템의 내용을 제공하는 핸들러를 리턴</li> <li>이러한 핸들러는 파일 시스템에 저장된 이미지나 기타 컨텐츠와 같은 정적 파일을 제공하는데 사용한다.</li></ul> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">func</span> <span class="token function">FileServer</span><span class="token punctuation">(</span>root FileSystem<span class="token punctuation">)</span> Handler
+</code></pre></div><div class="language-go extra-class"><pre class="language-go"><code>http<span class="token punctuation">.</span><span class="token function">Handle</span><span class="token punctuation">(</span><span class="token string">&quot;/images&quot;</span><span class="token punctuation">,</span> http<span class="token punctuation">.</span><span class="token function">FileServer</span><span class="token punctuation">(</span>http<span class="token punctuation">.</span><span class="token function">Dir</span><span class="token punctuation">(</span><span class="token string">&quot;./images&quot;</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+</code></pre></div><ul><li>위에 처럼 하면, 파일시스템 경로 ./images의 내용을 서버 경로 /images에 매핑할 수 있는데, Dir 함수는 특정 디렉토리 트리로 제한되는 파일 시스템을 구현하며, FileServer 메소드는 이를 사용해 에셋을 서비스 할 수 있다.</li></ul> <h3 id="notfoundhandler"><a href="#notfoundhandler" class="header-anchor">#</a> NotFoundHandler</h3> <ul><li>NotFoundHandler는 404 응답이다.</li></ul> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">func</span> <span class="token function">NotFoundHandler</span><span class="token punctuation">(</span><span class="token punctuation">)</span> Handler
+</code></pre></div><h3 id="redirecthandler"><a href="#redirecthandler" class="header-anchor">#</a> RedirectHandler</h3> <ul><li>RedirectHandler는 리다이렉트 하는 함수.</li> <li>매개변수로 받는 코드는 3xx 코드여야 한다.</li></ul> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">func</span> <span class="token function">RedirectHandler</span><span class="token punctuation">(</span>url <span class="token builtin">string</span><span class="token punctuation">,</span> code <span class="token builtin">int</span><span class="token punctuation">)</span> Handler
+</code></pre></div><h3 id="stripprefix"><a href="#stripprefix" class="header-anchor">#</a> StripPrefix</h3> <ul><li>StripPrefix 함수는 요청 URL의 경로에서 매개 변수로 받은 접두사를 제거한 다음 h 매개변수의 핸들러를 호출해 HTTP 요청을 처리하는 핸들러를 리턴한다.</li></ul> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">func</span> <span class="token function">StringPrefix</span><span class="token punctuation">(</span>prefix <span class="token builtin">string</span><span class="token punctuation">,</span> h Handler<span class="token punctuation">)</span> Handler
+</code></pre></div><h3 id="timeouthandler"><a href="#timeouthandler" class="header-anchor">#</a> TimeoutHandler</h3> <ul><li>일정시간이 지나면 타임아웃을 내는 핸들러</li></ul> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">func</span> <span class="token function">TimeoutHandler</span><span class="token punctuation">(</span>h Handler<span class="token punctuation">,</span> dt time<span class="token punctuation">.</span>Duration<span class="token punctuation">,</span> msg <span class="token builtin">string</span><span class="token punctuation">)</span> Handler
+</code></pre></div><h3 id="핸들러-만들기"><a href="#핸들러-만들기" class="header-anchor">#</a> 핸들러 만들기</h3> <ul><li>helloworld 엔드포인트에 대한 요청의 유효성 검사를 수행하는 코드와, 응답을 리턴하는 코드를 별도의 핸들러로 분할해 핸들러를 연결하는 방법</li></ul> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">type</span> validationHandler <span class="token keyword">struct</span> <span class="token punctuation">{</span>
+	next http<span class="token punctuation">.</span>Handler
+<span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token function">newValidationHandler</span><span class="token punctuation">(</span>next http<span class="token punctuation">.</span>Handler<span class="token punctuation">)</span> http<span class="token punctuation">.</span>Handler <span class="token punctuation">{</span>
+	<span class="token keyword">return</span> validationHandler<span class="token punctuation">{</span>next<span class="token punctuation">:</span> next<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token punctuation">(</span>h validationHandler<span class="token punctuation">)</span> <span class="token function">ServeHTTP</span><span class="token punctuation">(</span>rw http<span class="token punctuation">.</span>ResponseWriter<span class="token punctuation">,</span> r <span class="token operator">*</span>http<span class="token punctuation">.</span>Request<span class="token punctuation">)</span>  <span class="token punctuation">{</span>
+	<span class="token keyword">var</span> request helloWorldRequest
+	decoder <span class="token operator">:=</span> json<span class="token punctuation">.</span><span class="token function">NewDecoder</span><span class="token punctuation">(</span>r<span class="token punctuation">.</span>Body<span class="token punctuation">)</span>
+
+	err <span class="token operator">:=</span> decoder<span class="token punctuation">.</span><span class="token function">Decode</span><span class="token punctuation">(</span><span class="token operator">&amp;</span>request<span class="token punctuation">)</span>
+	<span class="token keyword">if</span> err <span class="token operator">!=</span> <span class="token boolean">nil</span> <span class="token punctuation">{</span>
+		http<span class="token punctuation">.</span><span class="token function">Error</span><span class="token punctuation">(</span>rw<span class="token punctuation">,</span> <span class="token string">&quot;Bad Request&quot;</span><span class="token punctuation">,</span> http<span class="token punctuation">.</span>StatusBadRequest<span class="token punctuation">)</span>
+		<span class="token keyword">return</span>
+	<span class="token punctuation">}</span>
+
+	h<span class="token punctuation">.</span>next<span class="token punctuation">.</span><span class="token function">ServeHTTP</span><span class="token punctuation">(</span>rw<span class="token punctuation">,</span> r<span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ul><li>Handler를 생성할 땐, 가장 먼저 Handler 인터페이스의 메소드를 구현할 구조체 필드를 선언해야 한다.</li> <li>새로 생성한 핸들러가 http.Handler 타입으로 구현하기위해, ServeHTTP를 구현해 준다.</li> <li>문제 없이 과정이 진해되면, 마지막으로 호출되는 매개변수 핸들러가 ServeHTTP를 호출해주면 된다.</li></ul> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">type</span> helloWorldHandler <span class="token keyword">struct</span><span class="token punctuation">{</span><span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token function">newHelloWorldHandler</span><span class="token punctuation">(</span><span class="token punctuation">)</span> http<span class="token punctuation">.</span>Handler <span class="token punctuation">{</span>
+	<span class="token keyword">return</span> helloWorldHandler<span class="token punctuation">{</span><span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token punctuation">(</span>h helloWorldHandler<span class="token punctuation">)</span> <span class="token function">ServeHTTP</span><span class="token punctuation">(</span>rw http<span class="token punctuation">.</span>ResponseWriter<span class="token punctuation">,</span> r <span class="token operator">*</span>http<span class="token punctuation">.</span>Request<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	response <span class="token operator">:=</span> helloWorldResponse<span class="token punctuation">{</span>Message<span class="token punctuation">:</span> <span class="token string">&quot;Hello&quot;</span><span class="token punctuation">}</span>
+
+	encoder <span class="token operator">:=</span> json<span class="token punctuation">.</span><span class="token function">NewEncoder</span><span class="token punctuation">(</span>rw<span class="token punctuation">)</span>
+	encoder<span class="token punctuation">.</span><span class="token function">Encode</span><span class="token punctuation">(</span>response<span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ul><li>이렇게 응답용 핸들러를 만들면, 디코딩 해주는 작업을 validationHandler에서 해주기 때문에, 인코딩 하는 부분만 필요하다.</li> <li>전체 소스 구조</li></ul> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">package</span> main
+
+<span class="token keyword">import</span> <span class="token punctuation">(</span>
+	<span class="token string">&quot;encoding/json&quot;</span>
+	<span class="token string">&quot;fmt&quot;</span>
+	<span class="token string">&quot;log&quot;</span>
+	<span class="token string">&quot;net/http&quot;</span>
+<span class="token punctuation">)</span>
+
+<span class="token keyword">type</span> helloWorldResponse <span class="token keyword">struct</span> <span class="token punctuation">{</span>
+	Message <span class="token builtin">string</span> <span class="token string">`json:&quot;message&quot;`</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">type</span> helloWorldRequest <span class="token keyword">struct</span> <span class="token punctuation">{</span>
+	Name <span class="token builtin">string</span> <span class="token string">`json:&quot;name&quot;`</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	port <span class="token operator">:=</span> <span class="token number">8081</span>
+
+    <span class="token comment">// 이부분이다. 핸들러에서 핸들러를 다시 부르는 구조.</span>
+	handler <span class="token operator">:=</span> <span class="token function">newValidationHandler</span><span class="token punctuation">(</span><span class="token function">newHelloWorldHandler</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+	http<span class="token punctuation">.</span><span class="token function">Handle</span><span class="token punctuation">(</span><span class="token string">&quot;/helloworld&quot;</span><span class="token punctuation">,</span> handler<span class="token punctuation">)</span>
+
+	log<span class="token punctuation">.</span><span class="token function">Printf</span><span class="token punctuation">(</span><span class="token string">&quot;Server starting on port %v\n&quot;</span><span class="token punctuation">,</span> port<span class="token punctuation">)</span>
+	log<span class="token punctuation">.</span><span class="token function">Fatal</span><span class="token punctuation">(</span>http<span class="token punctuation">.</span><span class="token function">ListenAndServe</span><span class="token punctuation">(</span>fmt<span class="token punctuation">.</span><span class="token function">Sprintf</span><span class="token punctuation">(</span><span class="token string">&quot;:%v&quot;</span><span class="token punctuation">,</span> port<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token boolean">nil</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">type</span> validationHandler <span class="token keyword">struct</span> <span class="token punctuation">{</span>
+	next http<span class="token punctuation">.</span>Handler
+<span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token function">newValidationHandler</span><span class="token punctuation">(</span>next http<span class="token punctuation">.</span>Handler<span class="token punctuation">)</span> http<span class="token punctuation">.</span>Handler <span class="token punctuation">{</span>
+	<span class="token keyword">return</span> validationHandler<span class="token punctuation">{</span>next<span class="token punctuation">:</span> next<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token punctuation">(</span>h validationHandler<span class="token punctuation">)</span> <span class="token function">ServeHTTP</span><span class="token punctuation">(</span>rw http<span class="token punctuation">.</span>ResponseWriter<span class="token punctuation">,</span> r <span class="token operator">*</span>http<span class="token punctuation">.</span>Request<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	<span class="token keyword">var</span> request helloWorldRequest
+	decoder <span class="token operator">:=</span> json<span class="token punctuation">.</span><span class="token function">NewDecoder</span><span class="token punctuation">(</span>r<span class="token punctuation">.</span>Body<span class="token punctuation">)</span>
+
+	err <span class="token operator">:=</span> decoder<span class="token punctuation">.</span><span class="token function">Decode</span><span class="token punctuation">(</span><span class="token operator">&amp;</span>request<span class="token punctuation">)</span>
+	<span class="token keyword">if</span> err <span class="token operator">!=</span> <span class="token boolean">nil</span> <span class="token punctuation">{</span>
+		http<span class="token punctuation">.</span><span class="token function">Error</span><span class="token punctuation">(</span>rw<span class="token punctuation">,</span> <span class="token string">&quot;Bad request&quot;</span><span class="token punctuation">,</span> http<span class="token punctuation">.</span>StatusBadRequest<span class="token punctuation">)</span>
+		<span class="token keyword">return</span>
+	<span class="token punctuation">}</span>
+
+	h<span class="token punctuation">.</span>next<span class="token punctuation">.</span><span class="token function">ServeHTTP</span><span class="token punctuation">(</span>rw<span class="token punctuation">,</span> r<span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">type</span> helloWorldHandler <span class="token keyword">struct</span><span class="token punctuation">{</span><span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token function">newHelloWorldHandler</span><span class="token punctuation">(</span><span class="token punctuation">)</span> http<span class="token punctuation">.</span>Handler <span class="token punctuation">{</span>
+	<span class="token keyword">return</span> helloWorldHandler<span class="token punctuation">{</span><span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token punctuation">(</span>h helloWorldHandler<span class="token punctuation">)</span> <span class="token function">ServeHTTP</span><span class="token punctuation">(</span>rw http<span class="token punctuation">.</span>ResponseWriter<span class="token punctuation">,</span> r <span class="token operator">*</span>http<span class="token punctuation">.</span>Request<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	response <span class="token operator">:=</span> helloWorldResponse<span class="token punctuation">{</span>Message<span class="token punctuation">:</span> <span class="token string">&quot;Hello&quot;</span><span class="token punctuation">}</span>
+
+	encoder <span class="token operator">:=</span> json<span class="token punctuation">.</span><span class="token function">NewEncoder</span><span class="token punctuation">(</span>rw<span class="token punctuation">)</span>
+	encoder<span class="token punctuation">.</span><span class="token function">Encode</span><span class="token punctuation">(</span>response<span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+curl localhost<span class="token punctuation">:</span><span class="token number">8081</span><span class="token operator">/</span>helloworld <span class="token operator">-</span>d <span class="token string">'{&quot;name&quot;:&quot;ted&quot;}'</span>
+<span class="token punctuation">{</span><span class="token string">&quot;message&quot;</span><span class="token punctuation">:</span><span class="token string">&quot;Hello&quot;</span><span class="token punctuation">}</span>
+</code></pre></div><h2 id="컨텍스트"><a href="#컨텍스트" class="header-anchor">#</a> 컨텍스트</h2> <ul><li>위의 핸들러는 하나의 핸들러가 검사가 끝나고, 해당 request를 다음 핸들러에 전달할 수 있는 방법이 없다.</li> <li>이런 문제를 해결해 주는게 context라고 보면 된다.</li></ul> <h3 id="background"><a href="#background" class="header-anchor">#</a> Background</h3> <ul><li>Background 메소드는 값이 없는 빈 Context를 반환한다.</li> <li>일반적으로 main 함수에서 최상위 Context로 사용된다.</li></ul> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">func</span> <span class="token function">Background</span><span class="token punctuation">(</span><span class="token punctuation">)</span> Context
+</code></pre></div><h3 id="withcancel"><a href="#withcancel" class="header-anchor">#</a> WithCancel</h3> <ul><li>WithCancel 메소드는 cancel 함수를 가지고 있는 부모 컨텍스트의 복사본을 리턴한다.</li> <li>cancel 함수를 호출하면 컨텍스트와 연결된 리소스가 해제되기 때문에 Context타입에서 실행중인 작업이 완료된 직후헤 호출해야 한다.</li></ul> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">func</span> <span class="token function">WithCancel</span><span class="token punctuation">(</span>parent Context<span class="token punctuation">)</span> <span class="token punctuation">(</span>ctx Context<span class="token punctuation">,</span> cancel CancelFunc<span class="token punctuation">)</span>
+</code></pre></div><h3 id="withdeadline"><a href="#withdeadline" class="header-anchor">#</a> WithDeadline</h3> <ul><li>WithDeadline 메소드는 제한 시간이 진나 경우 만료되는 부모컨텍스트의 복사본을 리턴한다.</li> <li>제한 시간이 지나면 컨텍스트의 완료 채널이 닫히고 연결된 리소스가 해제된다.</li></ul> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">func</span> <span class="token function">WithDeadline</span><span class="token punctuation">(</span>parent Context<span class="token punctuation">,</span> deadline time<span class="token punctuation">.</span>Time<span class="token punctuation">)</span> <span class="token punctuation">(</span>Context<span class="token punctuation">,</span> CancelFunc<span class="token punctuation">)</span>
+</code></pre></div><h3 id="withtimeout"><a href="#withtimeout" class="header-anchor">#</a> WithTimeout</h3> <ul><li>지속 시간이 경과하면 완료 채널이 닫히고 컨텍스트와 연관된 리소스가 해제된다.</li></ul> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">func</span> <span class="token function">WithTimeout</span><span class="token punctuation">(</span>parent Context<span class="token punctuation">,</span> timeout time<span class="token punctuation">.</span>Duration<span class="token punctuation">)</span> <span class="token punctuation">(</span>Context<span class="token punctuation">,</span> CancelFunc<span class="token punctuation">)</span>
+</code></pre></div><h3 id="withvalue"><a href="#withvalue" class="header-anchor">#</a> WithValue</h3> <ul><li>매개변수로 전달받은 키와 값의 쌍을 가지고 있는 부모 Context의 복사본을 리턴한다.</li> <li>이렇게 설정된 컨텍스트 값은 요청 범위 데이터로 사용하기에 적합하다.</li></ul> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">func</span> <span class="token function">WithValue</span><span class="token punctuation">(</span>parent Context<span class="token punctuation">,</span> key <span class="token keyword">interface</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span> val <span class="token keyword">interface</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">)</span> Context
+</code></pre></div><h3 id="컨텍스트-사용하기"><a href="#컨텍스트-사용하기" class="header-anchor">#</a> 컨텍스트 사용하기.</h3> <ul><li>Go 1.7 이후 버전에선 다음과 같은 http.Request 리시버가 추가되었다.</li></ul> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">func</span> <span class="token punctuation">(</span>r <span class="token operator">*</span>Request<span class="token punctuation">)</span> <span class="token function">Context</span><span class="token punctuation">(</span><span class="token punctuation">)</span> context<span class="token punctuation">.</span>Context 
+</code></pre></div><ul><li>Context() 메소드는 context.Context 구조체에 접근할 수 있도록 해준다.</li> <li>이 구조체는 요청이 처음 생성되었을 때부터 항상 nil이 아닌 값으로 채워지게 된다.</li> <li>http.Server는 인바운드 요청에 대해 클라이언트 연결이 닫힐 때 해당 컨텍스트를 자동으로 취소함으로써 컨텍스트의 생명 주기를 관리한다.</li> <li>아웃바운드 요청의 경우, Context() 메소드를 취소하면 나가는 요청이 취소되기 때문에, 이를 통해 컨텍스트의 취소를 제어할 수 있다.</li></ul> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">func</span> <span class="token function">fetchGoogle</span><span class="token punctuation">(</span>t <span class="token operator">*</span>testing<span class="token punctuation">.</span>T<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	r<span class="token punctuation">,</span> <span class="token boolean">_</span> <span class="token operator">:=</span> http<span class="token punctuation">.</span><span class="token function">NewRequest</span><span class="token punctuation">(</span><span class="token string">&quot;GET&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;https://google.com&quot;</span><span class="token punctuation">,</span> <span class="token boolean">nil</span><span class="token punctuation">)</span>
+
+	timeoutRequest<span class="token punctuation">,</span> cancelFunc <span class="token operator">:=</span> context<span class="token punctuation">.</span><span class="token function">WithTimeout</span><span class="token punctuation">(</span>r<span class="token punctuation">.</span><span class="token function">Context</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token operator">*</span>time<span class="token punctuation">.</span>Millisecond<span class="token punctuation">)</span>
+	<span class="token keyword">defer</span> <span class="token function">cancelFunc</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+	r <span class="token operator">=</span> r<span class="token punctuation">.</span><span class="token function">WithContext</span><span class="token punctuation">(</span>timeoutRequest<span class="token punctuation">)</span>
+
+	<span class="token boolean">_</span><span class="token punctuation">,</span> err <span class="token operator">:=</span> http<span class="token punctuation">.</span>DefaultClient<span class="token punctuation">.</span><span class="token function">Do</span><span class="token punctuation">(</span>r<span class="token punctuation">)</span>
+	<span class="token keyword">if</span> err <span class="token operator">!=</span> <span class="token boolean">nil</span> <span class="token punctuation">{</span>
+		fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span><span class="token string">&quot;Error:&quot;</span><span class="token punctuation">,</span> err<span class="token punctuation">)</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+Error<span class="token punctuation">:</span> Get https<span class="token punctuation">:</span><span class="token operator">/</span><span class="token operator">/</span>google<span class="token punctuation">.</span>com<span class="token punctuation">:</span> context deadline exceeded
+</code></pre></div><ul><li>시간 초과 컨텍스트를 만들었는데, 자동으로 취소되는 인바운드와는 달리, 아웃바운드는 defer 함수를 통해 취소함수를 실행해 줘야 한다.</li> <li>해당 함수를 돌리면, 타임아웃이 나서 에러가 발생하고, do 메소드는 즉시 리턴이 된다.</li> <li>인바운드 같은 경우 기존 예제에서 조금 수정하면 된다.</li></ul> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">package</span> main
+
+<span class="token keyword">import</span> <span class="token punctuation">(</span>
+	<span class="token string">&quot;context&quot;</span>
+	<span class="token string">&quot;encoding/json&quot;</span>
+	<span class="token string">&quot;fmt&quot;</span>
+	<span class="token string">&quot;log&quot;</span>
+	<span class="token string">&quot;net/http&quot;</span>
+	<span class="token string">&quot;testing&quot;</span>
+	<span class="token string">&quot;time&quot;</span>
+<span class="token punctuation">)</span>
+
+<span class="token keyword">type</span> validationContextKey <span class="token builtin">string</span>
+
+<span class="token keyword">type</span> helloWorldResponse <span class="token keyword">struct</span> <span class="token punctuation">{</span>
+	Message <span class="token builtin">string</span> <span class="token string">`json:&quot;message&quot;`</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">type</span> helloWorldRequest <span class="token keyword">struct</span> <span class="token punctuation">{</span>
+	Name <span class="token builtin">string</span> <span class="token string">`json:&quot;name&quot;`</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	port <span class="token operator">:=</span> <span class="token number">8081</span>
+
+	handler <span class="token operator">:=</span> <span class="token function">newValidationHandler</span><span class="token punctuation">(</span><span class="token function">newHelloWorldHandler</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+	http<span class="token punctuation">.</span><span class="token function">Handle</span><span class="token punctuation">(</span><span class="token string">&quot;/helloworld&quot;</span><span class="token punctuation">,</span> handler<span class="token punctuation">)</span>
+
+	log<span class="token punctuation">.</span><span class="token function">Printf</span><span class="token punctuation">(</span><span class="token string">&quot;Server starting on port %v\n&quot;</span><span class="token punctuation">,</span> port<span class="token punctuation">)</span>
+	log<span class="token punctuation">.</span><span class="token function">Fatal</span><span class="token punctuation">(</span>http<span class="token punctuation">.</span><span class="token function">ListenAndServe</span><span class="token punctuation">(</span>fmt<span class="token punctuation">.</span><span class="token function">Sprintf</span><span class="token punctuation">(</span><span class="token string">&quot;:%v&quot;</span><span class="token punctuation">,</span> port<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token boolean">nil</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">type</span> validationHandler <span class="token keyword">struct</span> <span class="token punctuation">{</span>
+	next http<span class="token punctuation">.</span>Handler
+<span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token function">newValidationHandler</span><span class="token punctuation">(</span>next http<span class="token punctuation">.</span>Handler<span class="token punctuation">)</span> http<span class="token punctuation">.</span>Handler <span class="token punctuation">{</span>
+	<span class="token keyword">return</span> validationHandler<span class="token punctuation">{</span>next<span class="token punctuation">:</span> next<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token punctuation">(</span>h validationHandler<span class="token punctuation">)</span> <span class="token function">ServeHTTP</span><span class="token punctuation">(</span>rw http<span class="token punctuation">.</span>ResponseWriter<span class="token punctuation">,</span> r <span class="token operator">*</span>http<span class="token punctuation">.</span>Request<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	<span class="token keyword">var</span> request helloWorldRequest
+	decoder <span class="token operator">:=</span> json<span class="token punctuation">.</span><span class="token function">NewDecoder</span><span class="token punctuation">(</span>r<span class="token punctuation">.</span>Body<span class="token punctuation">)</span>
+
+	err <span class="token operator">:=</span> decoder<span class="token punctuation">.</span><span class="token function">Decode</span><span class="token punctuation">(</span><span class="token operator">&amp;</span>request<span class="token punctuation">)</span>
+	<span class="token keyword">if</span> err <span class="token operator">!=</span> <span class="token boolean">nil</span> <span class="token punctuation">{</span>
+		http<span class="token punctuation">.</span><span class="token function">Error</span><span class="token punctuation">(</span>rw<span class="token punctuation">,</span> <span class="token string">&quot;Bad request&quot;</span><span class="token punctuation">,</span> http<span class="token punctuation">.</span>StatusBadRequest<span class="token punctuation">)</span>
+		<span class="token keyword">return</span>
+	<span class="token punctuation">}</span>
+
+	c <span class="token operator">:=</span> context<span class="token punctuation">.</span><span class="token function">WithValue</span><span class="token punctuation">(</span>r<span class="token punctuation">.</span><span class="token function">Context</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token function">validationContextKey</span><span class="token punctuation">(</span><span class="token string">&quot;name&quot;</span><span class="token punctuation">)</span><span class="token punctuation">,</span> request<span class="token punctuation">.</span>Name<span class="token punctuation">)</span>
+	r <span class="token operator">=</span> r<span class="token punctuation">.</span><span class="token function">WithContext</span><span class="token punctuation">(</span>c<span class="token punctuation">)</span>
+
+	h<span class="token punctuation">.</span>next<span class="token punctuation">.</span><span class="token function">ServeHTTP</span><span class="token punctuation">(</span>rw<span class="token punctuation">,</span> r<span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">type</span> helloWorldHandler <span class="token keyword">struct</span> <span class="token punctuation">{</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token function">newHelloWorldHandler</span><span class="token punctuation">(</span><span class="token punctuation">)</span> http<span class="token punctuation">.</span>Handler <span class="token punctuation">{</span>
+	<span class="token keyword">return</span> helloWorldHandler<span class="token punctuation">{</span><span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token punctuation">(</span>h helloWorldHandler<span class="token punctuation">)</span> <span class="token function">ServeHTTP</span><span class="token punctuation">(</span>rw http<span class="token punctuation">.</span>ResponseWriter<span class="token punctuation">,</span> r <span class="token operator">*</span>http<span class="token punctuation">.</span>Request<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	name <span class="token operator">:=</span> r<span class="token punctuation">.</span><span class="token function">Context</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">Value</span><span class="token punctuation">(</span><span class="token function">validationContextKey</span><span class="token punctuation">(</span><span class="token string">&quot;name&quot;</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token punctuation">(</span><span class="token builtin">string</span><span class="token punctuation">)</span>
+	response <span class="token operator">:=</span> helloWorldResponse<span class="token punctuation">{</span>Message<span class="token punctuation">:</span> <span class="token string">&quot;Hello &quot;</span> <span class="token operator">+</span> name<span class="token punctuation">}</span>
+
+	encoder <span class="token operator">:=</span> json<span class="token punctuation">.</span><span class="token function">NewEncoder</span><span class="token punctuation">(</span>rw<span class="token punctuation">)</span>
+	encoder<span class="token punctuation">.</span><span class="token function">Encode</span><span class="token punctuation">(</span>response<span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+curl localhost<span class="token punctuation">:</span><span class="token number">8081</span><span class="token operator">/</span>helloworld <span class="token operator">-</span>d <span class="token string">'{&quot;name&quot;:&quot;ted&quot;}'</span>
+<span class="token punctuation">{</span><span class="token string">&quot;message&quot;</span><span class="token punctuation">:</span><span class="token string">&quot;Hello ted&quot;</span><span class="token punctuation">}</span>
+</code></pre></div><ul><li>변경된 부분은 decoding 할 때, 리퀘스트의 컨텍스트를 불러서, name이라는 키를 컨택스트에 담아준다.</li> <li>이후 기존 리퀘스트에다가 해당 컨택스트를 포함시켜서, 전달받는 helloWorld 핸들러에서 name값을 사용할 수 있게 해준다.</li> <li>키를 넘길땐 validationContextKey를 사용하는데, 이것은 명시적으로 선언된 문자열 타입이다.</li></ul> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">type</span> validationContextKey <span class="token builtin">string</span>
+</code></pre></div><ul><li>이렇게 선언되는 이유는, 컨텍스트가 패키지를 넘어 전달되는 경우가 많기 때문이다.</li> <li>단순 문자열을 사용했다가는, 조작할 수 없는 패키지에서 똑같은 name이라는 키에 값을 덮어 쓰면 위의 name 키에 저장된 값도 변경이 되서 의도하지 않은 값이 나올 수도 있다.</li> <li>약간 세션같은 느낌이라고 보면 될듯</li></ul> <h2 id="go-표준-라이브러리의-rpc"><a href="#go-표준-라이브러리의-rpc" class="header-anchor">#</a> Go 표준 라이브러리의 RPC</h2> <h3 id="간단한-rpc-예제"><a href="#간단한-rpc-예제" class="header-anchor">#</a> 간단한 RPC 예제</h3> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">package</span> main
+
+<span class="token keyword">import</span> <span class="token string">&quot;github.com/gwegwe1234/go-with-microservice/chap1/contract&quot;</span>
+
+<span class="token keyword">type</span> HelloWorldHandler <span class="token keyword">struct</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token punctuation">(</span>h <span class="token operator">*</span>HelloWorldHandler<span class="token punctuation">)</span> <span class="token function">HelloWorld</span><span class="token punctuation">(</span>args <span class="token operator">*</span>contract<span class="token punctuation">.</span>HelloWorldRequest<span class="token punctuation">,</span> reply <span class="token operator">*</span>contract<span class="token punctuation">.</span>HelloWorldResponse<span class="token punctuation">)</span> <span class="token builtin">error</span> <span class="token punctuation">{</span>
+	reply<span class="token punctuation">.</span>Message <span class="token operator">=</span> <span class="token string">&quot;Hello &quot;</span> <span class="token operator">+</span> args<span class="token punctuation">.</span>Name
+	<span class="token keyword">return</span> <span class="token boolean">nil</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ul><li>표준 라이브러리를 사용해 REST API를 작성하는 예와 마찬가지로 RPC도 핸들러를 정의해야 한다.</li> <li>http.Handler와 이 핸들러의 차이는 인터페이스를 준수할 필요가 없다는 점이다.</li> <li>구조체 필드 및 관련 메소드를 갖고 있으면 RPC 서버에 등록할 수 있다.</li></ul> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">func</span> <span class="token function">Register</span><span class="token punctuation">(</span>rcvr <span class="token keyword">interface</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token builtin">error</span>
+</code></pre></div><ul><li>rpc 패키지에 있는 Register 함수는 지정된 인터페이스의 일부 메소드를 기본 서버에 공개하고, 클라이언트가 서비스에 연결된 클라이언트가 해당 메소드를 호출 할 수 있게 한다.</li> <li>메소드의 이름은 구체화된 타입의 이름을 사용하므로, 여기선 HelloWorldHandler.HelloWorld를 사용해 메소드에 접근이 가능하다.</li></ul> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">func</span> <span class="token function">RegisterName</span><span class="token punctuation">(</span>name <span class="token builtin">string</span><span class="token punctuation">,</span> rcvr <span class="token keyword">interface</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token builtin">error</span>
+</code></pre></div><ul><li>이렇게 다른이름으로 등록을 할 수도 있다.</li></ul> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">func</span> <span class="token function">StartServer</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	helloWorld <span class="token operator">:=</span> <span class="token operator">&amp;</span>HelloWorldHandler<span class="token punctuation">{</span><span class="token punctuation">}</span>
+	rpc<span class="token punctuation">.</span><span class="token function">Register</span><span class="token punctuation">(</span>helloWorld<span class="token punctuation">)</span>
+
+	l<span class="token punctuation">,</span> err <span class="token operator">:=</span> net<span class="token punctuation">.</span><span class="token function">Listen</span><span class="token punctuation">(</span><span class="token string">&quot;tcp&quot;</span><span class="token punctuation">,</span> fmt<span class="token punctuation">.</span><span class="token function">Sprintf</span><span class="token punctuation">(</span><span class="token string">&quot;:%v&quot;</span><span class="token punctuation">,</span> port<span class="token punctuation">)</span><span class="token punctuation">)</span>
+	<span class="token keyword">if</span> err <span class="token operator">!=</span> <span class="token boolean">nil</span> <span class="token punctuation">{</span>
+		log<span class="token punctuation">.</span><span class="token function">Fatal</span><span class="token punctuation">(</span>fmt<span class="token punctuation">.</span><span class="token function">Sprintf</span><span class="token punctuation">(</span><span class="token string">&quot;Unable to listen on given port: %s&quot;</span><span class="token punctuation">,</span> err<span class="token punctuation">)</span><span class="token punctuation">)</span>
+	<span class="token punctuation">}</span>
+	<span class="token keyword">defer</span> l<span class="token punctuation">.</span><span class="token function">Close</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+	<span class="token keyword">for</span> <span class="token punctuation">{</span>
+		conn<span class="token punctuation">,</span> <span class="token boolean">_</span> <span class="token operator">:=</span> l<span class="token punctuation">.</span><span class="token function">Accept</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+		<span class="token keyword">go</span> rpc<span class="token punctuation">.</span><span class="token function">ServeConn</span><span class="token punctuation">(</span>conn<span class="token punctuation">)</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ul><li>StartServer에서 먼저 핸들러의 새 인스턴스를 만들고, RPC 서버에 등록을 시켜준다.</li> <li>ListenAndServe()를 사용하는 net/http와는 달리, RPC는 조금더 복잡하다.</li> <li>프로토콜을 사용해 소켓을 생성하고, IP주소와 포트에 바인딩을 해준다.</li></ul> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">func</span> <span class="token function">Listen</span><span class="token punctuation">(</span>net<span class="token punctuation">,</span> laddr <span class="token builtin">string</span><span class="token punctuation">)</span> <span class="token punctuation">(</span>Listener<span class="token punctuation">,</span> err<span class="token punctuation">)</span>
+</code></pre></div><ul><li>Listen() 함수는 Listener 인터페이스를 구현하는 인스턴스를 리턴한다.</li></ul> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">type</span> Listener <span class="token keyword">interface</span> <span class="token punctuation">{</span>
+    <span class="token comment">// Accept 함수는 리스터와 다음 연결을 기다리고 있다가 그것을 리턴한다.</span>
+    <span class="token function">Accept</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">(</span>Conn<span class="token punctuation">,</span> <span class="token builtin">error</span><span class="token punctuation">)</span>
+
+    <span class="token comment">// Close 함수는 리스너를 닫는다.</span>
+    <span class="token function">Close</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token builtin">error</span>
+
+    <span class="token comment">// Addr은 리스너의 네트워크 주소를 리턴한다.</span>
+    <span class="token function">Addr</span><span class="token punctuation">(</span><span class="token punctuation">)</span> Addr
+<span class="token punctuation">}</span>
+</code></pre></div><ul><li>연결을 수신하려면 리스너에서 Accept 메소드를 호출해야 한다.</li> <li>for 무한루프를 돌고있는데, 블로킹 처리인 ListenAndServe와는 달리, RPC는 각 연결을 개별적으로 처리하면서 처음 연결을 처리하고 나서 Accept를 호출해 후속 연결을 처리하거나, 어플리케이션을 종료한다.</li> <li>이런식으로 서버를 구성하고, 클라이언트 소스를 구성해 보자</li></ul> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">package</span> client
+
+<span class="token keyword">import</span> <span class="token punctuation">(</span>
+	<span class="token string">&quot;fmt&quot;</span>
+	<span class="token string">&quot;github.com/gwegwe1234/go-with-microservice/chap1/contract&quot;</span>
+	<span class="token string">&quot;log&quot;</span>
+	<span class="token string">&quot;net/rpc&quot;</span>
+<span class="token punctuation">)</span>
+
+<span class="token keyword">const</span> port <span class="token operator">=</span> <span class="token number">1234</span>
+
+<span class="token keyword">func</span> <span class="token function">CreateClient</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">*</span>rpc<span class="token punctuation">.</span>Client <span class="token punctuation">{</span>
+	client<span class="token punctuation">,</span> err <span class="token operator">:=</span> rpc<span class="token punctuation">.</span><span class="token function">Dial</span><span class="token punctuation">(</span><span class="token string">&quot;tcp&quot;</span><span class="token punctuation">,</span> fmt<span class="token punctuation">.</span><span class="token function">Sprintf</span><span class="token punctuation">(</span><span class="token string">&quot;localhost:%v&quot;</span><span class="token punctuation">,</span> port<span class="token punctuation">)</span><span class="token punctuation">)</span>
+	<span class="token keyword">if</span> err <span class="token operator">!=</span> <span class="token boolean">nil</span> <span class="token punctuation">{</span>
+		log<span class="token punctuation">.</span><span class="token function">Fatal</span><span class="token punctuation">(</span><span class="token string">&quot;dialing:&quot;</span><span class="token punctuation">,</span> err<span class="token punctuation">)</span>
+	<span class="token punctuation">}</span>
+
+	<span class="token keyword">return</span> client
+<span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token function">PerformRequest</span><span class="token punctuation">(</span>client <span class="token operator">*</span>rpc<span class="token punctuation">.</span>Client<span class="token punctuation">)</span> contract<span class="token punctuation">.</span>HelloWorldResponse <span class="token punctuation">{</span>
+	args <span class="token operator">:=</span> <span class="token operator">&amp;</span>contract<span class="token punctuation">.</span>HelloWorldRequest<span class="token punctuation">{</span>Name<span class="token punctuation">:</span> <span class="token string">&quot;World&quot;</span><span class="token punctuation">}</span>
+	<span class="token keyword">var</span> reply contract<span class="token punctuation">.</span>HelloWorldResponse
+
+	err <span class="token operator">:=</span> client<span class="token punctuation">.</span><span class="token function">Call</span><span class="token punctuation">(</span><span class="token string">&quot;HelloWorldHandler.HelloWorld&quot;</span><span class="token punctuation">,</span> args<span class="token punctuation">,</span> <span class="token operator">&amp;</span>reply<span class="token punctuation">)</span>
+	<span class="token keyword">if</span> err <span class="token operator">!=</span> <span class="token boolean">nil</span> <span class="token punctuation">{</span>
+		log<span class="token punctuation">.</span><span class="token function">Fatal</span><span class="token punctuation">(</span><span class="token string">&quot;error:&quot;</span><span class="token punctuation">,</span> err<span class="token punctuation">)</span>
+	<span class="token punctuation">}</span>
+
+	<span class="token keyword">return</span> reply
+<span class="token punctuation">}</span>
+</code></pre></div><ul><li>rpc.Client를 설정하는데, rpc.Dial을 통해 클라이언트 자체를 생성한다.</li> <li>이후에 Call을해 서버에 보낼 요청을 생성, 호출한다.</li></ul> <h3 id="http를-통한-rpc"><a href="#http를-통한-rpc" class="header-anchor">#</a> HTTP를 통한 RPC</h3> <ul><li>전송 프로토콜로 HTTP를 사용해야할 경우, rpc 패키지의 HandleHTTP 메소드를 사용할 수 있다.</li> <li>HandleHTTP는 두개의 엔드포인트를 생성한다.</li></ul> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">const</span><span class="token punctuation">(</span>
+    <span class="token comment">// 기본 값들은 HandleHTTP에서 사용된다.</span>
+    DefaultRPCPath   <span class="token operator">=</span> <span class="token string">&quot;/_goRPC_&quot;</span>
+	DefaultDebugPath <span class="token operator">=</span> <span class="token string">&quot;/debug/rpc&quot;</span>
+<span class="token punctuation">)</span>
+</code></pre></div><div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">func</span> <span class="token function">StartServer</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	helloWorld <span class="token operator">:=</span> <span class="token operator">&amp;</span>HelloWorldHandler<span class="token punctuation">{</span><span class="token punctuation">}</span>
+	rpc<span class="token punctuation">.</span><span class="token function">Register</span><span class="token punctuation">(</span>helloWorld<span class="token punctuation">)</span>
+	rpc<span class="token punctuation">.</span><span class="token function">HandleHTTP</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+	l<span class="token punctuation">,</span> err <span class="token operator">:=</span> net<span class="token punctuation">.</span><span class="token function">Listen</span><span class="token punctuation">(</span><span class="token string">&quot;tcp&quot;</span><span class="token punctuation">,</span> fmt<span class="token punctuation">.</span><span class="token function">Sprintf</span><span class="token punctuation">(</span><span class="token string">&quot;:%v&quot;</span><span class="token punctuation">,</span> port<span class="token punctuation">)</span><span class="token punctuation">)</span>
+	<span class="token keyword">if</span> err <span class="token operator">!=</span> <span class="token boolean">nil</span> <span class="token punctuation">{</span>
+		log<span class="token punctuation">.</span><span class="token function">Fatal</span><span class="token punctuation">(</span>fmt<span class="token punctuation">.</span><span class="token function">Sprintf</span><span class="token punctuation">(</span><span class="token string">&quot;Unable to listen on given port: %s&quot;</span><span class="token punctuation">,</span> err<span class="token punctuation">)</span><span class="token punctuation">)</span>
+	<span class="token punctuation">}</span>
+
+	log<span class="token punctuation">.</span><span class="token function">Printf</span><span class="token punctuation">(</span><span class="token string">&quot;Server starting on port %v\n&quot;</span><span class="token punctuation">,</span> port<span class="token punctuation">)</span>
+
+	http<span class="token punctuation">.</span><span class="token function">Serve</span><span class="token punctuation">(</span>l<span class="token punctuation">,</span> <span class="token boolean">nil</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="http를-통한-json-rpc"><a href="#http를-통한-json-rpc" class="header-anchor">#</a> HTTP를 통한 JSON-RPC</h3> <ul><li>JSON-RPC 표준화 직렬화 및 역직렬화를 위한 내장 코덱 net/rpc/jsonrpc 패키지</li></ul> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">func</span> <span class="token function">StartServer</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	helloWorld <span class="token operator">:=</span> <span class="token function">new</span><span class="token punctuation">(</span>HelloWorldHandler<span class="token punctuation">)</span>
+	rpc<span class="token punctuation">.</span><span class="token function">Register</span><span class="token punctuation">(</span>helloWorld<span class="token punctuation">)</span>
+
+	l<span class="token punctuation">,</span> err <span class="token operator">:=</span> net<span class="token punctuation">.</span><span class="token function">Listen</span><span class="token punctuation">(</span><span class="token string">&quot;tcp&quot;</span><span class="token punctuation">,</span> fmt<span class="token punctuation">.</span><span class="token function">Sprintf</span><span class="token punctuation">(</span><span class="token string">&quot;:%v&quot;</span><span class="token punctuation">,</span> port<span class="token punctuation">)</span><span class="token punctuation">)</span>
+	<span class="token keyword">if</span> err <span class="token operator">!=</span> <span class="token boolean">nil</span> <span class="token punctuation">{</span>
+		log<span class="token punctuation">.</span><span class="token function">Fatal</span><span class="token punctuation">(</span>fmt<span class="token punctuation">.</span><span class="token function">Sprintf</span><span class="token punctuation">(</span><span class="token string">&quot;Unable to listen on given port: %s&quot;</span><span class="token punctuation">,</span> err<span class="token punctuation">)</span><span class="token punctuation">)</span>
+	<span class="token punctuation">}</span>
+
+	http<span class="token punctuation">.</span><span class="token function">Serve</span><span class="token punctuation">(</span>l<span class="token punctuation">,</span> http<span class="token punctuation">.</span><span class="token function">HandlerFunc</span><span class="token punctuation">(</span>httpHandler<span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ul><li>기존과 거의 동일하지만, 마지막줄이 http.Serve로 변경 되었다.</li></ul> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">func</span> <span class="token function">httpHandler</span><span class="token punctuation">(</span>w http<span class="token punctuation">.</span>ResponseWriter<span class="token punctuation">,</span> r <span class="token operator">*</span>http<span class="token punctuation">.</span>Request<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	serverCodec <span class="token operator">:=</span> jsonrpc<span class="token punctuation">.</span><span class="token function">NewServerCodec</span><span class="token punctuation">(</span><span class="token operator">&amp;</span>HttpConn<span class="token punctuation">{</span>in<span class="token punctuation">:</span> r<span class="token punctuation">.</span>Body<span class="token punctuation">,</span> out<span class="token punctuation">:</span> w<span class="token punctuation">}</span><span class="token punctuation">)</span>
+	err <span class="token operator">:=</span> rpc<span class="token punctuation">.</span><span class="token function">ServeRequest</span><span class="token punctuation">(</span>serverCodec<span class="token punctuation">)</span>
+	<span class="token keyword">if</span> err <span class="token operator">!=</span> <span class="token boolean">nil</span> <span class="token punctuation">{</span>
+		log<span class="token punctuation">.</span><span class="token function">Printf</span><span class="token punctuation">(</span><span class="token string">&quot;Error while serving JSON request: %v&quot;</span><span class="token punctuation">,</span> err<span class="token punctuation">)</span>
+		http<span class="token punctuation">.</span><span class="token function">Error</span><span class="token punctuation">(</span>w<span class="token punctuation">,</span> <span class="token string">&quot;Error while serving JSON request, details have been logged.&quot;</span><span class="token punctuation">,</span> <span class="token number">500</span><span class="token punctuation">)</span>
+		<span class="token keyword">return</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ul><li>httpHandler에선, NewServerCodec을 호출하는데, 매개변수로 io.ReadWriteCloser를 구현하는 타입을 전달한다.</li> <li>NewServerCodec 메소드는 rpc.ClientCodec을 구현한 타입을 리턴하는데, 다음과 같은 메소드가 있다.</li></ul> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">type</span> ClientCodec <span class="token keyword">interface</span> <span class="token punctuation">{</span>
+	<span class="token function">WriteRequest</span><span class="token punctuation">(</span><span class="token operator">*</span>Request<span class="token punctuation">,</span> <span class="token keyword">interface</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token builtin">error</span>
+	<span class="token function">ReadResponseHeader</span><span class="token punctuation">(</span><span class="token operator">*</span>Response<span class="token punctuation">)</span> <span class="token builtin">error</span>
+	<span class="token function">ReadResponseBody</span><span class="token punctuation">(</span><span class="token keyword">interface</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token builtin">error</span>
+
+	<span class="token function">Close</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token builtin">error</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ul><li>ClientCodec 타입은 RPC 요청의 작성 및 RPC 응답 읽기를 구현한다.</li> <li>응답을 읽기 위해, 클라이언트쪽은 ReadResponseHeader와 ReadResponseBody를 쌍으로 호출해 줘야한다.</li> <li>이제 ReadWriteCloser 인터페이스를 구현해야 한다.</li></ul> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">type</span> HttpConn <span class="token keyword">struct</span> <span class="token punctuation">{</span>
+	in  io<span class="token punctuation">.</span>Reader
+	out io<span class="token punctuation">.</span>Writer
+<span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token punctuation">(</span>c <span class="token operator">*</span>HttpConn<span class="token punctuation">)</span> <span class="token function">Read</span><span class="token punctuation">(</span>p <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token builtin">byte</span><span class="token punctuation">)</span> <span class="token punctuation">(</span>n <span class="token builtin">int</span><span class="token punctuation">,</span> err <span class="token builtin">error</span><span class="token punctuation">)</span>  <span class="token punctuation">{</span> <span class="token keyword">return</span> c<span class="token punctuation">.</span>in<span class="token punctuation">.</span><span class="token function">Read</span><span class="token punctuation">(</span>p<span class="token punctuation">)</span> <span class="token punctuation">}</span>
+<span class="token keyword">func</span> <span class="token punctuation">(</span>c <span class="token operator">*</span>HttpConn<span class="token punctuation">)</span> <span class="token function">Write</span><span class="token punctuation">(</span>d <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token builtin">byte</span><span class="token punctuation">)</span> <span class="token punctuation">(</span>n <span class="token builtin">int</span><span class="token punctuation">,</span> err <span class="token builtin">error</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token keyword">return</span> c<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">Write</span><span class="token punctuation">(</span>d<span class="token punctuation">)</span> <span class="token punctuation">}</span>
+<span class="token keyword">func</span> <span class="token punctuation">(</span>c <span class="token operator">*</span>HttpConn<span class="token punctuation">)</span> <span class="token function">Close</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token builtin">error</span>                      <span class="token punctuation">{</span> <span class="token keyword">return</span> <span class="token boolean">nil</span> <span class="token punctuation">}</span>
+</code></pre></div><ul><li>전체 소스</li></ul> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">package</span> server
+
+<span class="token keyword">import</span> <span class="token punctuation">(</span>
+	<span class="token string">&quot;fmt&quot;</span>
+	<span class="token string">&quot;github.com/gwegwe1234/go-with-microservice/chap1/contract&quot;</span>
+	<span class="token string">&quot;io&quot;</span>
+	<span class="token string">&quot;log&quot;</span>
+	<span class="token string">&quot;net&quot;</span>
+	<span class="token string">&quot;net/http&quot;</span>
+	<span class="token string">&quot;net/rpc&quot;</span>
+	<span class="token string">&quot;net/rpc/jsonrpc&quot;</span>
+<span class="token punctuation">)</span>
+
+<span class="token keyword">const</span> port <span class="token operator">=</span> <span class="token number">1234</span>
+
+<span class="token keyword">type</span> HttpConn <span class="token keyword">struct</span> <span class="token punctuation">{</span>
+	in  io<span class="token punctuation">.</span>Reader
+	out io<span class="token punctuation">.</span>Writer
+<span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token punctuation">(</span>c <span class="token operator">*</span>HttpConn<span class="token punctuation">)</span> <span class="token function">Read</span><span class="token punctuation">(</span>p <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token builtin">byte</span><span class="token punctuation">)</span> <span class="token punctuation">(</span>n <span class="token builtin">int</span><span class="token punctuation">,</span> err <span class="token builtin">error</span><span class="token punctuation">)</span>  <span class="token punctuation">{</span> <span class="token keyword">return</span> c<span class="token punctuation">.</span>in<span class="token punctuation">.</span><span class="token function">Read</span><span class="token punctuation">(</span>p<span class="token punctuation">)</span> <span class="token punctuation">}</span>
+<span class="token keyword">func</span> <span class="token punctuation">(</span>c <span class="token operator">*</span>HttpConn<span class="token punctuation">)</span> <span class="token function">Write</span><span class="token punctuation">(</span>d <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token builtin">byte</span><span class="token punctuation">)</span> <span class="token punctuation">(</span>n <span class="token builtin">int</span><span class="token punctuation">,</span> err <span class="token builtin">error</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token keyword">return</span> c<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">Write</span><span class="token punctuation">(</span>d<span class="token punctuation">)</span> <span class="token punctuation">}</span>
+<span class="token keyword">func</span> <span class="token punctuation">(</span>c <span class="token operator">*</span>HttpConn<span class="token punctuation">)</span> <span class="token function">Close</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token builtin">error</span>                      <span class="token punctuation">{</span> <span class="token keyword">return</span> <span class="token boolean">nil</span> <span class="token punctuation">}</span>
+
+<span class="token keyword">type</span> HelloWorldHandler <span class="token keyword">struct</span><span class="token punctuation">{</span><span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token punctuation">(</span>h <span class="token operator">*</span>HelloWorldHandler<span class="token punctuation">)</span> <span class="token function">HelloWorld</span><span class="token punctuation">(</span>args <span class="token operator">*</span>contract<span class="token punctuation">.</span>HelloWorldRequest<span class="token punctuation">,</span> reply <span class="token operator">*</span>contract<span class="token punctuation">.</span>HelloWorldResponse<span class="token punctuation">)</span> <span class="token builtin">error</span> <span class="token punctuation">{</span>
+	reply<span class="token punctuation">.</span>Message <span class="token operator">=</span> <span class="token string">&quot;Hello &quot;</span> <span class="token operator">+</span> args<span class="token punctuation">.</span>Name
+	<span class="token keyword">return</span> <span class="token boolean">nil</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token function">StartServer</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	helloWorld <span class="token operator">:=</span> <span class="token function">new</span><span class="token punctuation">(</span>HelloWorldHandler<span class="token punctuation">)</span>
+	rpc<span class="token punctuation">.</span><span class="token function">Register</span><span class="token punctuation">(</span>helloWorld<span class="token punctuation">)</span>
+
+	l<span class="token punctuation">,</span> err <span class="token operator">:=</span> net<span class="token punctuation">.</span><span class="token function">Listen</span><span class="token punctuation">(</span><span class="token string">&quot;tcp&quot;</span><span class="token punctuation">,</span> fmt<span class="token punctuation">.</span><span class="token function">Sprintf</span><span class="token punctuation">(</span><span class="token string">&quot;:%v&quot;</span><span class="token punctuation">,</span> port<span class="token punctuation">)</span><span class="token punctuation">)</span>
+	<span class="token keyword">if</span> err <span class="token operator">!=</span> <span class="token boolean">nil</span> <span class="token punctuation">{</span>
+		log<span class="token punctuation">.</span><span class="token function">Fatal</span><span class="token punctuation">(</span>fmt<span class="token punctuation">.</span><span class="token function">Sprintf</span><span class="token punctuation">(</span><span class="token string">&quot;Unable to listen on given port: %s&quot;</span><span class="token punctuation">,</span> err<span class="token punctuation">)</span><span class="token punctuation">)</span>
+	<span class="token punctuation">}</span>
+
+	http<span class="token punctuation">.</span><span class="token function">Serve</span><span class="token punctuation">(</span>l<span class="token punctuation">,</span> http<span class="token punctuation">.</span><span class="token function">HandlerFunc</span><span class="token punctuation">(</span>httpHandler<span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token function">httpHandler</span><span class="token punctuation">(</span>w http<span class="token punctuation">.</span>ResponseWriter<span class="token punctuation">,</span> r <span class="token operator">*</span>http<span class="token punctuation">.</span>Request<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	serverCodec <span class="token operator">:=</span> jsonrpc<span class="token punctuation">.</span><span class="token function">NewServerCodec</span><span class="token punctuation">(</span><span class="token operator">&amp;</span>HttpConn<span class="token punctuation">{</span>in<span class="token punctuation">:</span> r<span class="token punctuation">.</span>Body<span class="token punctuation">,</span> out<span class="token punctuation">:</span> w<span class="token punctuation">}</span><span class="token punctuation">)</span>
+	err <span class="token operator">:=</span> rpc<span class="token punctuation">.</span><span class="token function">ServeRequest</span><span class="token punctuation">(</span>serverCodec<span class="token punctuation">)</span>
+	<span class="token keyword">if</span> err <span class="token operator">!=</span> <span class="token boolean">nil</span> <span class="token punctuation">{</span>
+		log<span class="token punctuation">.</span><span class="token function">Printf</span><span class="token punctuation">(</span><span class="token string">&quot;Error while serving JSON request: %v&quot;</span><span class="token punctuation">,</span> err<span class="token punctuation">)</span>
+		http<span class="token punctuation">.</span><span class="token function">Error</span><span class="token punctuation">(</span>w<span class="token punctuation">,</span> <span class="token string">&quot;Error while serving JSON request, details have been logged.&quot;</span><span class="token punctuation">,</span> <span class="token number">500</span><span class="token punctuation">)</span>
+		<span class="token keyword">return</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">package</span> client
+
+<span class="token keyword">import</span> <span class="token punctuation">(</span>
+	<span class="token string">&quot;bytes&quot;</span>
+	<span class="token string">&quot;encoding/json&quot;</span>
+	<span class="token string">&quot;github.com/gwegwe1234/go-with-microservice/chap1/contract&quot;</span>
+	<span class="token string">&quot;net/http&quot;</span>
+<span class="token punctuation">)</span>
+
+<span class="token keyword">func</span> <span class="token function">PerformRequest</span><span class="token punctuation">(</span><span class="token punctuation">)</span> contract<span class="token punctuation">.</span>HelloWorldResponse <span class="token punctuation">{</span>
+	r<span class="token punctuation">,</span> <span class="token boolean">_</span> <span class="token operator">:=</span> http<span class="token punctuation">.</span><span class="token function">Post</span><span class="token punctuation">(</span>
+		<span class="token string">&quot;http://localhost:1234&quot;</span><span class="token punctuation">,</span>
+		<span class="token string">&quot;application/json&quot;</span><span class="token punctuation">,</span>
+		bytes<span class="token punctuation">.</span><span class="token function">NewBuffer</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token function">byte</span><span class="token punctuation">(</span><span class="token string">`{&quot;id&quot;: 1, &quot;method&quot;: &quot;HelloWorldHandler.HelloWorld&quot;, &quot;params&quot;: [{&quot;name&quot;:&quot;World&quot;}]}`</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+	<span class="token punctuation">)</span>
+	<span class="token keyword">defer</span> r<span class="token punctuation">.</span>Body<span class="token punctuation">.</span><span class="token function">Close</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+	decoder <span class="token operator">:=</span> json<span class="token punctuation">.</span><span class="token function">NewDecoder</span><span class="token punctuation">(</span>r<span class="token punctuation">.</span>Body<span class="token punctuation">)</span>
+	<span class="token keyword">var</span> response contract<span class="token punctuation">.</span>HelloWorldResponse
+	decoder<span class="token punctuation">.</span><span class="token function">Decode</span><span class="token punctuation">(</span><span class="token operator">&amp;</span>response<span class="token punctuation">)</span>
+
+	<span class="token keyword">return</span> response
+<span class="token punctuation">}</span>
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/study-collection/book/go-in-action/09.html" class="prev">9장 테스트와 벤치마킹</a></span> <span class="next"><a href="/study-collection/book/production-ready-microservices/06.html">6장 모니터링</a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/study-collection/assets/js/app.e8b95b65.js" defer></script><script src="/study-collection/assets/js/2.f91ae037.js" defer></script><script src="/study-collection/assets/js/53.8b69e99e.js" defer></script>
+  </body>
+</html>
