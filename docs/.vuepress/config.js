@@ -320,6 +320,17 @@ module.exports = {
             },
 
             {
+              title: 'Go 언어를 활용한 마이크로서비스 개발',
+              sidebarDepth: 0,
+              children: [
+                {
+                  title: '1장 마이크로서비스 소개', // required
+                  path: '/book/Building-Microservice-With-Go/01',
+                },
+              ]
+            },
+
+            {
               title: '마이크로서비스 구축과 운영',
               sidebarDepth: 0,
               children: [
