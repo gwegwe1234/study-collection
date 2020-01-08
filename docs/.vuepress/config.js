@@ -331,6 +331,10 @@ module.exports = {
                   title: '2장 좋은 API 디자인하기', // required
                   path: '/book/Building-Microservice-With-Go/02',
                 },
+                {
+                  title: '4장 테스트', // required
+                  path: '/book/Building-Microservice-With-Go/04',
+                },
               ]
             },
 
