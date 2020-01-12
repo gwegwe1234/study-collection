@@ -82,6 +82,10 @@ module.exports = {
                   title: '12장 자바 어플리케이션과 데이터베이스 통합하기', // required
                   path: '/book/JPIE/12',
                 },
+                {
+                  title: '13장 웹 어플리케이션 만들기', // required
+                  path: '/book/JPIE/13',
+                },
               ]
             },
 
