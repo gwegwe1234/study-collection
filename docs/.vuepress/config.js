@@ -78,6 +78,10 @@ module.exports = {
                   title: '11장 동시성', // required
                   path: '/book/JPIE/11',
                 },
+                {
+                  title: '12장 자바 어플리케이션과 데이터베이스 통합하기', // required
+                  path: '/book/JPIE/12',
+                },
               ]
             },
 
