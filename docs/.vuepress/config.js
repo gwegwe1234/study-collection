@@ -356,6 +356,17 @@ module.exports = {
                 },
               ]
             },
+
+            {
+              title: '카프카 스트림즈 인 액션',
+              sidebarDepth: 0,
+              children: [
+                {
+                  title: '1장 카프카 스트림즈에 오신 것을 환영합니다', // required
+                  path: '/book/kafka-streams-in-action/01',
+                },
+              ]
+            },
           ]
         },
 
