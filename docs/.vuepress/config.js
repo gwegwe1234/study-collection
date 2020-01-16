@@ -434,6 +434,11 @@ module.exports = {
                   title: '객체지향 설계 5원칙 SOLID', // required
                   path: '/programming/Solid',
                 },
+
+                {
+                  title: 'Kafka Streams', // required
+                  path: '/programming/kafka_streams',
+                },
               ]
             },
 
