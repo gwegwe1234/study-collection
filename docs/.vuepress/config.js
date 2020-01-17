@@ -365,6 +365,11 @@ module.exports = {
                   title: '1장 카프카 스트림즈에 오신 것을 환영합니다', // required
                   path: '/book/kafka-streams-in-action/01',
                 },
+
+                {
+                  title: '2장 빠르게 살펴보는 카프카', // required
+                  path: '/book/kafka-streams-in-action/02',
+                },
               ]
             },
           ]
