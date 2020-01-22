@@ -370,6 +370,11 @@ module.exports = {
                   title: '2장 빠르게 살펴보는 카프카', // required
                   path: '/book/kafka-streams-in-action/02',
                 },
+
+                {
+                  title: '3장 카프카 스트림즈 개발', // required
+                  path: '/book/kafka-streams-in-action/03',
+                },
               ]
             },
           ]
