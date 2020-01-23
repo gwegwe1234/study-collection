@@ -375,6 +375,11 @@ module.exports = {
                   title: '3장 카프카 스트림즈 개발', // required
                   path: '/book/kafka-streams-in-action/03',
                 },
+
+                {
+                  title: '4장 스트림과 상태', // required
+                  path: '/book/kafka-streams-in-action/04',
+                },
               ]
             },
           ]
