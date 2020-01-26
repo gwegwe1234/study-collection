@@ -86,6 +86,10 @@ module.exports = {
                   title: '13장 웹 어플리케이션 만들기', // required
                   path: '/book/JPIE/13',
                 },
+                {
+                  title: '14장 HTTP와 REST 이용하기', // required
+                  path: '/book/JPIE/14',
+                },
               ]
             },
 
