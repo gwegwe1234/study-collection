@@ -384,6 +384,11 @@ module.exports = {
                   title: '4장 스트림과 상태', // required
                   path: '/book/kafka-streams-in-action/04',
                 },
+
+                {
+                  title: '5장 KTable API', // required
+                  path: '/book/kafka-streams-in-action/05',
+                },
               ]
             },
           ]
