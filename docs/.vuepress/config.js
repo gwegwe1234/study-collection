@@ -90,6 +90,10 @@ module.exports = {
                   title: '14장 HTTP와 REST 이용하기', // required
                   path: '/book/JPIE/14',
                 },
+                {
+                  title: '15장 직렬화', // required
+                  path: '/book/JPIE/15',
+                },
               ]
             },
 
