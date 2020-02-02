@@ -359,6 +359,10 @@ module.exports = {
               sidebarDepth: 0,
               children: [
                 {
+                  title: '1장 마이크로서비스', // required
+                  path: '/book/production-ready-microservices/01',
+                },
+                {
                   title: '6장 모니터링', // required
                   path: '/book/production-ready-microservices/06',
                 },
