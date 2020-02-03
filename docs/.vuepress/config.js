@@ -397,6 +397,11 @@ module.exports = {
                   title: '5장 KTable API', // required
                   path: '/book/kafka-streams-in-action/05',
                 },
+
+                {
+                  title: '6장 프로세서 API', // required
+                  path: '/book/kafka-streams-in-action/06',
+                },
               ]
             },
           ]
