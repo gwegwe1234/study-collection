@@ -402,6 +402,11 @@ module.exports = {
                   title: '6장 프로세서 API', // required
                   path: '/book/kafka-streams-in-action/06',
                 },
+
+                {
+                  title: '7장 모니터링과 성능', // required
+                  path: '/book/kafka-streams-in-action/07',
+                },
               ]
             },
           ]
