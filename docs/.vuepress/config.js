@@ -419,6 +419,10 @@ module.exports = {
                   path: '/book/modern-java-in-action/01',
                 },
                 
+                {
+                  title: '2장 동작 파라미터화 코드 전달하기', // required
+                  path: '/book/modern-java-in-action/02',
+                },
               ]
             },
 
