@@ -94,6 +94,10 @@ module.exports = {
                   title: '15장 직렬화', // required
                   path: '/book/JPIE/15',
                 },
+                {
+                  title: '16장 스프링 프레임워크', // required
+                  path: '/book/JPIE/16',
+                },
               ]
             },
 
