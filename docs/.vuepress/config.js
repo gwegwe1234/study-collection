@@ -98,6 +98,10 @@ module.exports = {
                   title: '16장 스프링 프레임워크', // required
                   path: '/book/JPIE/16',
                 },
+                {
+                  title: '17장 하이버네이트 사용하기', // required
+                  path: '/book/JPIE/17',
+                },
               ]
             },
 
