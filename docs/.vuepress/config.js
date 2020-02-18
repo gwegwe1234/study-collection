@@ -431,6 +431,11 @@ module.exports = {
                   title: '2장 동작 파라미터화 코드 전달하기', // required
                   path: '/book/modern-java-in-action/02',
                 },
+
+                {
+                  title: '3장 람다 표현식', // required
+                  path: '/book/modern-java-in-action/03',
+                },
               ]
             },
 
