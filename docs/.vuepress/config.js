@@ -415,6 +415,11 @@ module.exports = {
                   title: '7장 모니터링과 성능', // required
                   path: '/book/kafka-streams-in-action/07',
                 },
+
+                {
+                  title: '8장 카프카 스트림즈 어플리케이션 테스트', // required
+                  path: '/book/kafka-streams-in-action/08',
+                },
               ]
             },
 
