@@ -441,6 +441,11 @@ module.exports = {
                   title: '3장 람다 표현식', // required
                   path: '/book/modern-java-in-action/03',
                 },
+
+                {
+                  title: '4장 스트림 소개', // required
+                  path: '/book/modern-java-in-action/04',
+                },
               ]
             },
 
