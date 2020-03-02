@@ -446,6 +446,11 @@ module.exports = {
                   title: '4장 스트림 소개', // required
                   path: '/book/modern-java-in-action/04',
                 },
+
+                {
+                  title: '5장 스트림 활용', // required
+                  path: '/book/modern-java-in-action/05',
+                },
               ]
             },
 
