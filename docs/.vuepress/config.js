@@ -451,6 +451,11 @@ module.exports = {
                   title: '5장 스트림 활용', // required
                   path: '/book/modern-java-in-action/05',
                 },
+
+                {
+                  title: '6장 스트림으로 데이터 수집', // required
+                  path: '/book/modern-java-in-action/06',
+                },
               ]
             },
 
