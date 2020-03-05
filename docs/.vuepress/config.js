@@ -456,6 +456,11 @@ module.exports = {
                   title: '6장 스트림으로 데이터 수집', // required
                   path: '/book/modern-java-in-action/06',
                 },
+
+                {
+                  title: '7장 병렬 데이터 처리와 성능', // required
+                  path: '/book/modern-java-in-action/07',
+                },
               ]
             },
 
