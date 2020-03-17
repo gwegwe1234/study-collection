@@ -461,6 +461,16 @@ module.exports = {
                   title: '7장 병렬 데이터 처리와 성능', // required
                   path: '/book/modern-java-in-action/07',
                 },
+
+                {
+                  title: '8장 컬렉션 API 개선', // required
+                  path: '/book/modern-java-in-action/08',
+                },
+
+                {
+                  title: '9장 리팩터링, 테스팅, 디버깅', // required
+                  path: '/book/modern-java-in-action/09',
+                },
               ]
             },
 
