@@ -471,6 +471,11 @@ module.exports = {
                   title: '9장 리팩터링, 테스팅, 디버깅', // required
                   path: '/book/modern-java-in-action/09',
                 },
+
+                {
+                  title: '10장 람다를 이용한 도메인 전용 언어', // required
+                  path: '/book/modern-java-in-action/10',
+                },
               ]
             },
 
