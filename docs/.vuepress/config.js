@@ -476,6 +476,11 @@ module.exports = {
                   title: '10장 람다를 이용한 도메인 전용 언어', // required
                   path: '/book/modern-java-in-action/10',
                 },
+
+                {
+                  title: '12장 새로운 냘짜와 시간 API', // required
+                  path: '/book/modern-java-in-action/12',
+                },
               ]
             },
 
