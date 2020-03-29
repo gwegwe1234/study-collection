@@ -481,6 +481,11 @@ module.exports = {
                   title: '12장 새로운 냘짜와 시간 API', // required
                   path: '/book/modern-java-in-action/12',
                 },
+
+                {
+                  title: '13장 디폴트 메소드', // required
+                  path: '/book/modern-java-in-action/13',
+                },
               ]
             },
 
