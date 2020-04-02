@@ -640,6 +640,11 @@ module.exports = {
                   title: 'Infra - 웹서버', // required
                   path: '/devops/Infra_webserver',
                 },
+
+                {
+                  title: 'aaS - IaaS, PaaS, SaaS', // required
+                  path: '/devops/aaS.md',
+                },
               ]
             },
           ]
