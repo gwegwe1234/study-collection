@@ -489,6 +489,17 @@ module.exports = {
               ]
             },
 
+            {
+              title: '객체지향의 사실과 오해',
+              sidebarDepth: 0,
+              children: [
+                {
+                  title: '1장 협력하는 객체들의 공동체', // required
+                  path: '/book/oop-true-false/01',
+                },
+              ]
+            },
+
           ]
         },
 
