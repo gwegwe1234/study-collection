@@ -502,6 +502,11 @@ module.exports = {
                   title: '1장 협력하는 객체들의 공동체', // required
                   path: '/book/oop-true-false/01',
                 },
+
+                {
+                  title: '2장 이상한 나라의 객체', // required
+                  path: '/book/oop-true-false/02',
+                },
               ]
             },
 
