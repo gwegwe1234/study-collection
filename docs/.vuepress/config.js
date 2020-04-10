@@ -478,6 +478,11 @@ module.exports = {
                 },
 
                 {
+                  title: '11장 null 대신 Optional 클래스', // required
+                  path: '/book/modern-java-in-action/11',
+                },
+
+                {
                   title: '12장 새로운 냘짜와 시간 API', // required
                   path: '/book/modern-java-in-action/12',
                 },
