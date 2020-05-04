@@ -491,6 +491,16 @@ module.exports = {
                   title: '13장 디폴트 메소드', // required
                   path: '/book/modern-java-in-action/13',
                 },
+
+                {
+                  title: '14장 자바 모듈 시스템', // required
+                  path: '/book/modern-java-in-action/14',
+                },
+
+                {
+                  title: '15장 CompletableFuture와 리액티브 프로그래밍 컨셉의 기초', // required
+                  path: '/book/modern-java-in-action/15',
+                },
               ]
             },
 
