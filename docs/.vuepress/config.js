@@ -501,6 +501,16 @@ module.exports = {
                   title: '15장 CompletableFuture와 리액티브 프로그래밍 컨셉의 기초', // required
                   path: '/book/modern-java-in-action/15',
                 },
+
+                {
+                  title: '16장 안정적 비동기 프로그래밍', // required
+                  path: '/book/modern-java-in-action/16',
+                },
+
+                {
+                  title: '17장 리액티브 프로그래밍', // required
+                  path: '/book/modern-java-in-action/17',
+                },
               ]
             },
 
