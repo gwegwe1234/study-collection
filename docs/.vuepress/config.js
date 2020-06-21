@@ -511,6 +511,11 @@ module.exports = {
                   title: '17장 리액티브 프로그래밍', // required
                   path: '/book/modern-java-in-action/17',
                 },
+
+                {
+                  title: '18장 함수형 관점으로 생각하기', // required
+                  path: '/book/modern-java-in-action/18',
+                },
               ]
             },
 
