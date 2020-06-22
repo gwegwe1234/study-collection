@@ -516,6 +516,11 @@ module.exports = {
                   title: '18장 함수형 관점으로 생각하기', // required
                   path: '/book/modern-java-in-action/18',
                 },
+
+                {
+                  title: '19장 함수형 프로그래밍 기법', // required
+                  path: '/book/modern-java-in-action/19',
+                },
               ]
             },
 
