@@ -623,6 +623,11 @@ module.exports = {
                   title: 'Kafka Streams', // required
                   path: '/programming/kafka_streams',
                 },
+
+                {
+                  title: '동기/비동기/블록킹/논블록킹', // required
+                  path: '/programming/sync_async_blocking_nonblocking',
+                },
               ]
             },
 
