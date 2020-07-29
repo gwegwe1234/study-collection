@@ -14,6 +14,3 @@
 
 4: 
 	cp -r ~/dist/ ./
-
-5:
-	git checkout master
