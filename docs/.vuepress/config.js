@@ -665,6 +665,11 @@ module.exports = {
                   title: 'Servlet', // required
                   path: '/cs/Servlet',
                 },
+
+                {
+                  title: 'Git', // required
+                  path: '/cs/Git-1',
+                },
               ]
             },
 
