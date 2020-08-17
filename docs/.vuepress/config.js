@@ -537,6 +537,11 @@ module.exports = {
                   title: '2장 이상한 나라의 객체', // required
                   path: '/book/oop-true-false/02',
                 },
+
+                {
+                  title: '3장 타입과 추상화', // required
+                  path: '/book/oop-true-false/03',
+                },
               ]
             },
 
