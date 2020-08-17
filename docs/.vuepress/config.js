@@ -628,6 +628,11 @@ module.exports = {
                   title: '동기/비동기/블록킹/논블록킹', // required
                   path: '/programming/sync_async_blocking_nonblocking',
                 },
+
+                {
+                  title: 'gRPC 예제', // required
+                  path: '/programming/grpc_sample',
+                },
               ]
             },
 
