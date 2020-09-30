@@ -542,6 +542,11 @@ module.exports = {
                   title: '3장 타입과 추상화', // required
                   path: '/book/oop-true-false/03',
                 },
+
+                {
+                  title: '4장 역할, 책입, 협력', // required
+                  path: '/book/oop-true-false/04',
+                },
               ]
             },
 
