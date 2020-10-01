@@ -544,8 +544,13 @@ module.exports = {
                 },
 
                 {
-                  title: '4장 역할, 책입, 협력', // required
+                  title: '4장 역할, 책임, 협력', // required
                   path: '/book/oop-true-false/04',
+                },
+
+                {
+                  title: '5장 책임과 메세지', // required
+                  path: '/book/oop-true-false/05',
                 },
               ]
             },
