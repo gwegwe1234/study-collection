@@ -552,6 +552,11 @@ module.exports = {
                   title: '5장 책임과 메세지', // required
                   path: '/book/oop-true-false/05',
                 },
+
+                {
+                  title: '6장 객체 지도', // required
+                  path: '/book/oop-true-false/06',
+                },
               ]
             },
 
