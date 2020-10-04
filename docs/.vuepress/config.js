@@ -557,6 +557,11 @@ module.exports = {
                   title: '6장 객체 지도', // required
                   path: '/book/oop-true-false/06',
                 },
+
+                {
+                  title: '7장 함께 모으기', // required
+                  path: '/book/oop-true-false/07',
+                },
               ]
             },
 
