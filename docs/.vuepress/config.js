@@ -738,6 +738,17 @@ module.exports = {
                 },
               ]
             },
+
+            {
+              title: 'Algorithm',
+              sidebarDepth: 0,
+              children: [
+                {
+                  title: 'CodePlus 알고리즘 기초 1', // required
+                  path: '/algorithm/basic1',
+                },
+              ]
+            },
           ]
         }
       ],
