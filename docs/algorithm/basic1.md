@@ -294,3 +294,143 @@ for (int i = 2; i <= n; i++) {
 - nCm 
 - n! / (n-m)! * m!
 - 이건 2, 5 둘다 구해서 둘 중 작은거로 해야된다.
+
+## 다이나믹 프로그래밍
+- 큰 문제를 작은 문제로 나눠서 푸는 알고리즘 (문제의 크기)
+- Dynamic은 간지나보인다고 붙인거고 아무런 의미가 없다..(?)
+- 두 가지 속성을 만족해야 다이나믹 프로그래밍 문제 풀이가 가능하다.
+
+```java
+1. Overlapping Subproblem : 겹치는 부분 문제
+2. Optimal Substructure : 최적 부분 구조
+```
+
+### Overlapping Subproble
+- 피보나치 수
+- F0 = 0
+- F1 = 1
+- Fn = Fn-1 + Fn-2(n>=2)
+- n번째가 큰 문제, n-1, n-2 는 작은 문제
+- 큰 문제와 작은 문제는 같은 방법으로 풀 수 있다.
+- 문제를 작은 문제로 쪼갤 수 있다.
+- 보통 재귀로 푼다
+
+### Optimal Substructure
+- 문제의 정답을 작은 문제의 정답에서 구할 수 있다.
+- 예시
+- 서울에서 부산을 가는 가장 빠른 길이 대전과 대구를 순서대로 거쳐야 한다면,
+- 대전에서 부산을 가는 가장 빠른 길은 대구를 거쳐야 한다.
+- 뭐 이런식..
+- Optimal Substructure를 만족한다면, 문제의 크기에 상관 없이 어떤 한 문제의 정답은 일정하다.
+- 10번째 피보나치 수를 구하면서 구한 4번째 피보나치 수 == 9번째 피보나치 수를 구하면서 구한 4번째 피보나치 수 == 8번째 ...
+- 4 번째 피보나치 수는 항상 같다.
+
+### Overlapping + Optimal
+- 매번 같은 답이 나오는걸 계속 쓰면 비 효율적이다.
+- Optimal Structure를 만족하기 때문에, 같은 문제를 구할 때마다 정답이 같다.
+- 따라서 정답을 이미 구했으면, 정답을 어딘가에 메모 (memorization) 한다.
+
+### 피보나치 수
+```java
+int fibonacci(int n) {
+    if (n <= 1) {
+        return n;
+    } else {
+        return fibonacci(n-1) + fibonacci(n-2);
+    }
+}
+```
+
+- 위의 코드는 아래와 같이 호출된다.
+
+![alt](../images/codeplus1-1.png)
+
+ - 중복 호출이 매우 많다.
+
+ ![alt](../images/codeplus1-2.png)
+
+ - 이런건 한번만 구하도록 해보자
+
+ ```java
+int memo[100];
+int fibonacci(int n) {
+    if (n <= 1) {
+        return n;
+    } else {
+        if (memo[n] > 0) {
+            return memo[n]; // 이미 해당 값이 있다는 거니까, 그냥 저장된 값 리턴해준다.
+        }
+        memo[n] = fibonacci(n-1) + fibonacci(n-2);
+        return memo[n];
+    }
+}
+ ```
+
+ - 기존 피보나치는 하나가 2번씩 푸니가 O(2의 n)
+ - DnymicProgramming 은 문제를 한번씩만 푸니까 문제의 개수 X 무제 1개를 푸는 시간 ==> O(N)
+ 
+### 다이나믹 프로그래밍 구현 방법
+ ```java
+1. Top-down  : 재귀
+2. Bottom-up : 반복
+ ```
+
+- 두 방법의 시간 복잡도 비교는 알수가 없다. (매번 다르다고 보면 된다)
+- 크게 고민할 필요는 없다
+
+#### Bottom-up
+ - 문제를 크기가 작은 문제부터 차례대로 푼다
+ - 문제의 크기를 조금씩 크게 만들면서 문제를 점점 푼다
+ - 작은 문제를 풀면서 왔기 때문에, 큰 문제는 항상 풀 수 있다.
+ - 반복하다 보면 가장 큰 문제를 풀 수 있다
+ - 보통 반복문으로 구현
+
+ ```java
+int d[100];
+int fibonnaci(int n) {
+    d[0] = 0;
+    d[1] = 1;
+    for (int i = 2; i <= n; i++) {
+        d[i] = d[i-1] + d[i-2];
+    }
+
+    return d[n];
+}
+ ```
+
+ ## 문제
+ ### 1로 만들기
+ - D[i] = i를 1로 만드는데 필요한 최소 연산 횟수
+ - i에게 가능한 경우
+ ```java
+ 1. i가 3으로 나누어 떨어졌을 때, 3으로 나누는 경우
+ 2. i가 2로 나누어 떨어졌을 때, 2로 나누는 경우
+ 3. i에서 1을 빼는 경우
+ ```
+
+ - `D[N] = min(D[N/3], D[N/2], D[N-1]) + 1;`
+- [탑다운 구현 소스](https://github.com/mbiostudy/codeplus-algorithm/blob/main/gwangtae/gwegwe-algorithm/src/MakeOneTopDown.java)
+- [바텀업 구현 소스](https://github.com/mbiostudy/codeplus-algorithm/blob/main/gwangtae/gwegwe-algorithm/src/MakeOneBottomUp.java)
+
+### 2 X n 타일링
+- 점화식 : D[n] = 2 X n 을 채우는 방법의 수
+- 2 X n 직사각형이 있을 때, 가장 오른쪽에 타일을 놓을 수 있는 방법은 총 2가지
+- 경우의 수 : D[n-1] / D[n-2] 
+- 즉 2 X n을 구할 수 있는 방법은 2개다
+- `D[n] = D[n-1] + D[n-2]`
+- [구현 소스](https://github.com/mbiostudy/codeplus-algorithm/blob/main/gwangtae/gwegwe-algorithm/src/TwoMultipleNTiling.java)
+
+### 2 X n 타일링2
+- 2 X 2 정사각형 케이스도 추가
+- `D[n] = D[n-1] + D[n-2] + D[n-2]`
+- [구현 소스](https://github.com/mbiostudy/codeplus-algorithm/blob/main/gwangtae/gwegwe-algorithm/src/TwoMultipleNTiling2.java)
+
+### 1,2,3 더하기
+- 정수 n을 1,2,3의 합으로 나타내는 방법의 수를 구하는 문제
+- 점화식 : D[n] = n을 1,2,3의 합으로 나타내는 방법의 수
+- o + o + o + o ... + o = n
+- 케이스는 맨 마지막에 1,2,3이 더해지는 케이스가 있다.
+- 그 전엔 n-1, n-2, n-3 까지의 합이 된다.
+- D[0] = 1
+- `D[n] = D[n-1] + D[n-2] + D[n-3]`
+- [구현 소스](https://github.com/mbiostudy/codeplus-algorithm/blob/main/gwangtae/gwegwe-algorithm/src/OneTwoThreePlus.java)
