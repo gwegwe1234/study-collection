@@ -442,6 +442,7 @@ int fibonnaci(int n) {
 - 카드 N개를 구매하는 비용의 최대값을 구하는 문제
 - 1 <= i <= n
 - `D[n] = max(D[n-i] + P[i])`
+- [구현 소스](https://github.com/mbiostudy/codeplus-algorithm/blob/main/gwangtae/gwegwe-algorithm/src/BuyingCard.java)
 
 ### 1,2,3 더하기 5
 - 정수 n을 1,2,3의 합으로 나타내는 방법의 수를 구하는 문제
@@ -456,6 +457,7 @@ int fibonnaci(int n) {
 - 길이가 N인 계단 수의 개수를 구하는 문제
 - D[N][L] = 길이가 N인 계단수, 마지막 수 L
 - D[N][L] = D[N-1][L-1] + D[N-1][L+1]
+- [구현 소스](https://github.com/mbiostudy/codeplus-algorithm/blob/main/gwangtae/gwegwe-algorithm/src/EasyStairNumber.java)
 
 ### 이친수
 - 이진수 베이스
@@ -465,3 +467,14 @@ int fibonnaci(int n) {
 - D[N][L] = N자리 이친수, 마지막 수 L
 - D[N][0] = D[N-1][0] + D[N-1][1]
 - D[N][1] = D[N-1][0]
+- [구현 소스](https://github.com/mbiostudy/codeplus-algorithm/blob/main/gwangtae/gwegwe-algorithm/src/TwoCrazyNumber.java)
+
+### 가장 긴 증가하는 부분 수열
+- 수열 A가 주어졌을 때, 가장 긴 증가하는 부분 수열을 구하는 문제
+- 예시 : 10, 20, 10, 30, 20, 50 이면 10,20,30,50 이 답
+- `D[i] = max(D[j]) + 1 / j < i, A[j] < A[i]` 
+
+### 연속합
+- n개의 정수로 이루어진 임의의 수열이 주어짐
+- 이 중 연속된 몇 개의 숫자를 선택해서 구할 수 있는 합 중 가장 큰 합을 구한다.
+- 숫자는 한 개 이상 선택

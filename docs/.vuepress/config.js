@@ -658,6 +658,11 @@ module.exports = {
                   title: 'gRPC 예제', // required
                   path: '/programming/grpc_sample',
                 },
+
+                {
+                  title: '개발 종합 정리', // required
+                  path: '/programming/total',
+                },
               ]
             },
 
