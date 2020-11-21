@@ -473,8 +473,104 @@ int fibonnaci(int n) {
 - 수열 A가 주어졌을 때, 가장 긴 증가하는 부분 수열을 구하는 문제
 - 예시 : 10, 20, 10, 30, 20, 50 이면 10,20,30,50 이 답
 - `D[i] = max(D[j]) + 1 / j < i, A[j] < A[i]` 
+- [구현 소스](https://github.com/mbiostudy/codeplus-algorithm/blob/main/gwangtae/gwegwe-algorithm/src/LIS.java)
 
 ### 연속합
 - n개의 정수로 이루어진 임의의 수열이 주어짐
 - 이 중 연속된 몇 개의 숫자를 선택해서 구할 수 있는 합 중 가장 큰 합을 구한다.
 - 숫자는 한 개 이상 선택
+- [구현 소스](https://github.com/mbiostudy/codeplus-algorithm/blob/main/gwangtae/gwegwe-algorithm/src/SequentialSum.java)
+
+### 제곱수의 합
+- 주어진 자연수 N을 제곱수들의 합으로 표현할 때에 그 항의 최소 개수를 구하는 문제
+- 11 = 3*3 + 1*1 + 1*1
+- 마지막에 와야될 수는 i의 제곱
+- 그 전까지의 합은 N - i제곱
+- D[n] = min(D[n - i제곱]) + 1;
+- 1 제곱 <= i 제곱 <= N
+- i <= 루트 N
+- [구현 소스](https://github.com/mbiostudy/codeplus-algorithm/blob/main/gwangtae/gwegwe-algorithm/src/DoubleMultipleSum.java)
+
+### 합분해
+- 0부터 N까지의 정수 K개를 더해서 그 합이 N이 되는 경우의 수
+- 마지막에 더한 수가 L로 정의 한다.
+- D[K][N] = 시그마 D[K-1][N-L];
+
+### 1,2,3 더하기 3
+- 정수 n을 1,2,3의 합으로 나타내는 방법의 수를 구하는 문제
+
+### RGB 거리
+- RGB 거리에 사는 사람들은 집을 빨강, 초록 파랑중에 하나로 칠한다.
+- 이웃과 같은색으로 칠할 수 없다.
+- 집 i의 이웃의 집 i-1, i+1이고, 첫 집과 마지막 집은 이웃이 아님
+- 각집을 빨강으로 칠하는 비용, 초록으로 칠할 때 드는 비용, 파랑으로 드는 비용이 주어질 때, 모든 집을 칠하는 비용의 최솟값
+- D[i][j] = i번 집을 색 j로 칠했을 때, 1~i번 집을 칠하는 비용의 최솟값
+    - j = 0 -> 빨강
+    - j = 1 -> 초록 
+    - j = 2 -> 파랑
+- D[i][0] = min(D[i-1][1], D[i-1][2]) + A[i][0]
+- D[i][1] = min(D[i-1][0], D[i-1][2]) + A[i][1]
+- D[i][2] = min(D[i-1][0], D[i-1][1]) + A[i][2]
+- A[i][j] = 문제의 입력
+- [구현 소스](https://github.com/mbiostudy/codeplus-algorithm/blob/main/gwangtae/gwegwe-algorithm/src/RGBStreet.java)
+
+### 동물원
+- 가로로 두 칸, 세로로 N 칸인 동물원이 있다.
+- 가로, 세로로 붙어 있게 배치하면 안된다.
+- 가능한 배치의 수
+- 가로의 경우의 수 = 한마리도 안넣기, 오른쪽에 넣기, 왼쪽에 넣기, 이 세 가지만 된다.
+- D[N][0] = N번 줄에 배치하지 않음
+- D[N][1] = N번 줄에 왼쪽에만 배치함
+- D[N][2] = N번 줄에 오른쪽에만 배치함 
+- D[N][0] = D[N-1][0] + D[N-1][1] + D[N-1][2]
+- D[N][1] = D[N-1][0] + D[N-1][2]
+- D[N][2] = D[N-1][0] + D[N-1][1]
+- [구현 소스](https://github.com/mbiostudy/codeplus-algorithm/blob/main/gwangtae/gwegwe-algorithm/src/Zoo.java)
+
+### 오르막 수
+- 오르막 수는 수의 자리가 오름차순을 이루는 수
+- 인접한 수가 같아도 오름차순으로 친다
+- 수의 길이 N이 주어졌을 때 오르막수의 개수를 구하는 문제
+- 수는 0부터 시작 가능
+- 예: 1233345, 5666789...
+- D[i][j] = 길이가 i이고 마지막 숫자가 j인 오르막 수의 개수
+- D[1][i] = 1
+- D[i][j] = D[i-1][k] (k <= j)
+- [구현 소스](https://github.com/mbiostudy/codeplus-algorithm/blob/main/gwangtae/gwegwe-algorithm/src/UpUpUpNumbers.java)
+
+### 스티커
+- 이거 동물원이랑 거의 똑같음
+- 동물원에 넣듯이 0,1,2 이렇게 해서 점수 높은거로 뽑아내면됨
+
+### 정수 삼각현
+- 정수 삼각형이 있을 때, 왼쪽 오른쪽 선택해서 제일 크게 합해지는 경우
+- (i, j) i행 ,j열 = i 행의 j번째 수
+- D[i][j] = i행 j열이 선택되었을 때 최대합
+- (i, j)가 선택되기 전에 선택된 수는 (i-1)(j), (i-1)(j-1) 둘 중 하나이다.
+- D[i][j] = Max(D[i-1][j], D[i-1][j-1]) + A[i][j];
+- [구현 소스](https://github.com/mbiostudy/codeplus-algorithm/blob/main/gwangtae/gwegwe-algorithm/src/IntegerTriangle.java)
+
+### 연속합 2
+- 수열의 연속합 중 가장 큰 합을 구하는 문제
+- 수는 하나 제거할 수 있고, 제거하지 않을 수도 있다.
+- D[i] = i 번째 수에서 끝나는 최대 연속합
+- D2[i] = i 번째 수에서 시작하는 최대 연속합
+- 이 값을 이용해서 A[i] 를 제거했을 대 최대 연속합을 구할 수 있다.
+- i 번째 수를 제거하면 i-1번째 수와, i+1 번째 수가 연속하게 된다.
+- 따라서 D[i-1] + D2[i+1]이 i번째 수를 제거 했을 때 i번째 수가 포함되는 최대 연속합
+
+### 타일 채우기
+- 3 X N을 1 X 2, 2 X 1 로 채우는 방법의 수 
+- D[i] = 3 X i를 채우는 방법의 수
+- 하나씩 다찾기엔 경우의 수가 많아서.. 그냥 그렇다
+
+### 동물원
+- D[i] = 세로 크기가 i인 동물원을 채우는 방법의 수, 단 i 번째 줄에는 동물이 있어야 한다.
+- i번째 줄 이전에 동물이 있는 줄은 어디일까?
+- D[i] = D[i-1] + 2(D[i-2] + D[i-3] ... D[1]) -> N제곱으로 시간이 터짐
+
+### RGB 거리 2
+- 첫 집과 마지막 집도 이웃이다 (원형 마을)
+- 1과 N에 대한 조건처리가 필요하다
+- 1번집을 색을 고정한다.
+- [구현 소스](https://github.com/mbiostudy/codeplus-algorithm/blob/main/gwangtae/gwegwe-algorithm/src/RGBStreet2.java)
