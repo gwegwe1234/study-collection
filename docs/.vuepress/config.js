@@ -752,6 +752,11 @@ module.exports = {
                   title: 'CodePlus 알고리즘 기초 1', // required
                   path: '/algorithm/basic1',
                 },
+
+                {
+                  title: 'CodePlus 알고리즘 기초 2', // required
+                  path: '/algorithm/basic2',
+                },
               ]
             },
           ]
