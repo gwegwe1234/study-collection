@@ -565,6 +565,17 @@ module.exports = {
               ]
             },
 
+            {
+              title: '뇌를 자극하는 윈도우즈 시스템 프로그래밍',
+              sidebarDepth: 0,
+              children: [
+                {
+                  title: '1장 컴퓨터 구조에 대한 첫 번째 이야기', // required
+                  path: '/book/windows-system-programming/01',
+                },
+              ]
+            },
+
           ]
         },
 
