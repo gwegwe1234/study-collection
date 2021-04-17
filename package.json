@@ -20,6 +20,10 @@
   },
   "homepage": "https://github.com/gwegwe1234/study-collection#readme",
   "devDependencies": {
-    "vuepress": "^1.2.0"
+    "vuepress": "^1.2.0",
+    "vuepress-theme-dark-new": "^0.1.2"
+  },
+  "dependencies": {
+    "vuepress-theme-default-prefers-color-scheme": "^2.0.0"
   }
 }

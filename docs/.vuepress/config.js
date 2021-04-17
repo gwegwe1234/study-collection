@@ -1,4 +1,8 @@
 module.exports = {
+    theme: 'default-prefers-color-scheme',
+    themeConfig: {
+      prefersTheme: 'dark',
+    },
     title: '끄적끄적 블로그',
     description: '개발 관련 블로그',
     base: '/study-collection/',
