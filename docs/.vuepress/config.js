@@ -573,6 +573,10 @@ module.exports = {
                   title: '1장 컴퓨터 구조에 대한 첫 번째 이야기', // required
                   path: '/book/windows-system-programming/01',
                 },
+                {
+                  title: '2장 아스키코드 vs 유니코드', // required
+                  path: '/book/windows-system-programming/02',
+                },
               ]
             },
 
