@@ -585,6 +585,10 @@ module.exports = {
                   title: '3장 64비트 기반 프로그래밍', // required
                   path: '/book/windows-system-programming/03',
                 },
+                {
+                  title: '4장 컴퓨터 구조에 대한 두 번째 이야기', // required
+                  path: '/book/windows-system-programming/04',
+                },
               ]
             },
 
