@@ -581,6 +581,10 @@ module.exports = {
                   title: '2장 아스키코드 vs 유니코드', // required
                   path: '/book/windows-system-programming/02',
                 },
+                {
+                  title: '3장 64비트 기반 프로그래밍', // required
+                  path: '/book/windows-system-programming/03',
+                },
               ]
             },
 
