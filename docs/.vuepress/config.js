@@ -596,6 +596,17 @@ module.exports = {
               ]
             },
 
+            {
+              title: '스프링5를 활용한 리액티브 프로그래밍',
+              sidebarDepth: 0,
+              children: [
+                {
+                  title: '1장 왜 리액티브 스프링인가?', // required
+                  path: '/book/spring-reactive/01',
+                },
+              ]
+            },
+
           ]
         },
 
