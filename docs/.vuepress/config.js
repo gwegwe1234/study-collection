@@ -589,6 +589,10 @@ module.exports = {
                   title: '4장 컴퓨터 구조에 대한 두 번째 이야기', // required
                   path: '/book/windows-system-programming/04',
                 },
+                {
+                  title: '5장 프로세스의 생성과 소멸', // required
+                  path: '/book/windows-system-programming/05',
+                },
               ]
             },
 
