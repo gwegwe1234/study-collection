@@ -604,6 +604,10 @@ module.exports = {
                   title: '1장 왜 리액티브 스프링인가?', // required
                   path: '/book/spring-reactive/01',
                 },
+                {
+                  title: '2장 스프링을 이용한 리액티브 프로그래밍 - 기본 개념', // required
+                  path: '/book/spring-reactive/02',
+                },
               ]
             },
 
