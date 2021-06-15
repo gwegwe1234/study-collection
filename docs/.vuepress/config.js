@@ -593,6 +593,10 @@ module.exports = {
                   title: '5장 프로세스의 생성과 소멸', // required
                   path: '/book/windows-system-programming/05',
                 },
+                {
+                  title: '6장 커널 오브젝트와 오브젝트 핸들', // required
+                  path: '/book/windows-system-programming/06',
+                },
               ]
             },
 
