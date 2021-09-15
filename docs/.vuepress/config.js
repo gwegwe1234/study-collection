@@ -832,6 +832,11 @@ module.exports = {
                       title: 'What is HTTP?', // required
                       path: '/backend/specific/http',
                     },
+
+                    {
+                      title: 'Browsers and how the work?', // required
+                      path: '/backend/specific/browser',
+                    },
                   ]
                 },
               ]
