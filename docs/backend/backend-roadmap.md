@@ -3,7 +3,7 @@
 
 - Internet
     - [How does the internet work?](./specific/internet-work.md)
-    - What is HTTP?
+    - [What is HTTP?](./specific/http.md)
     - Browsers and how they work?
     - What is hosting?
 - Basic Frontend Knowledge
