@@ -4,14 +4,14 @@
 - Internet
     - [How does the internet work?](./specific/internet-work.md)
     - [What is HTTP?](./specific/http.md)
-    - Browsers and how they work?
+    - [Browsers and how they work?](./specific/browser.md)
     - What is hosting?
 - Basic Frontend Knowledge
     - HTML
     - CSS
     - Javascript
 - OS and General Knowledge
-    - Basic Terminal Command
+    - [Basic Terminal Command](./specific/basic-terminal-commands)
         - grep, awk, sed, isof, curl, wget, tail, head, less, find, ssh, kill
     - Process Management
     - Thrads and Concurrency
