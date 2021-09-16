@@ -837,6 +837,11 @@ module.exports = {
                       title: 'Browsers and how the work?', // required
                       path: '/backend/specific/browser',
                     },
+
+                    {
+                      title: 'Basic Terminal Command', // required
+                      path: '/backend/specific/basic-terminal-commands',
+                    },
                   ]
                 },
               ]
