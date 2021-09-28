@@ -13,7 +13,7 @@
 - OS and General Knowledge
     - [Basic Terminal Command](./specific/basic-terminal-commands)
         - grep, awk, sed, isof, curl, wget, tail, head, less, find, ssh, kill
-    - Process Management
+    - [Process Management](./specific/process)
     - Thrads and Concurrency
     - Interprocess Communication
     - I/O Management

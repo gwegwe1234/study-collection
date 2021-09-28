@@ -842,6 +842,11 @@ module.exports = {
                       title: 'Basic Terminal Command', // required
                       path: '/backend/specific/basic-terminal-commands',
                     },
+
+                    {
+                      title: 'Process Management', // required
+                      path: '/backend/specific/process',
+                    },
                   ]
                 },
               ]
