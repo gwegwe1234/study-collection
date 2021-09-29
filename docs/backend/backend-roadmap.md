@@ -14,7 +14,7 @@
     - [Basic Terminal Command](./specific/basic-terminal-commands)
         - grep, awk, sed, isof, curl, wget, tail, head, less, find, ssh, kill
     - [Process Management](./specific/process)
-    - Thrads and Concurrency
+    - [Thrads and Concurrency](./specific/thread)
     - Interprocess Communication
     - I/O Management
     - POSIX basics
@@ -58,6 +58,7 @@
 - Architectural Patterns
     - SOA
     - Serveless
+    - Layered Architecture
 - Search Engines
     - Elasticsearch
 - Message Brokers

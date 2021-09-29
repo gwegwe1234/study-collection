@@ -847,6 +847,11 @@ module.exports = {
                       title: 'Process Management', // required
                       path: '/backend/specific/process',
                     },
+
+                    {
+                      title: 'Thrads and Concurrency', // required
+                      path: '/backend/specific/thread',
+                    },
                   ]
                 },
               ]
