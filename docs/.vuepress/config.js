@@ -184,6 +184,17 @@ module.exports = {
                 }
               ]
             },
+
+            {
+              title: 'TDD By Example',
+              sidebarDepth: 0,
+              children: [
+                {
+                  title: '1장 다중 통화를 지원하는 Money 객체', // required
+                  path: '/book/tdd/01',
+                },
+              ]
+            },
           
             {
               title: '스프링 인 액션',
@@ -614,7 +625,6 @@ module.exports = {
                 },
               ]
             },
-
           ]
         },
 
