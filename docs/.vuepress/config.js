@@ -193,6 +193,11 @@ module.exports = {
                   title: '1장 다중 통화를 지원하는 Money 객체', // required
                   path: '/book/tdd/01',
                 },
+
+                {
+                  title: '2장 타락한 객체', // required
+                  path: '/book/tdd/02',
+                },
               ]
             },
           
