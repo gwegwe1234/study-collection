@@ -198,6 +198,11 @@ module.exports = {
                   title: '2장 타락한 객체', // required
                   path: '/book/tdd/02',
                 },
+
+                {
+                  title: '3장 모두를 위한 평등', // required
+                  path: '/book/tdd/03',
+                },
               ]
             },
           
