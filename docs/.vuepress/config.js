@@ -203,6 +203,21 @@ module.exports = {
                   title: '3장 모두를 위한 평등', // required
                   path: '/book/tdd/03',
                 },
+
+                {
+                  title: '4장 프라이버시', // required
+                  path: '/book/tdd/04',
+                },
+
+                {
+                  title: '5장 솔직히 말하자면', // required
+                  path: '/book/tdd/05',
+                },
+
+                {
+                  title: '6장 돌아온 모두를 위한 평등', // required
+                  path: '/book/tdd/06',
+                },
               ]
             },
           
