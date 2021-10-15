@@ -218,6 +218,21 @@ module.exports = {
                   title: '6장 돌아온 모두를 위한 평등', // required
                   path: '/book/tdd/06',
                 },
+
+                {
+                  title: '7장 사과와 오렌지', // required
+                  path: '/book/tdd/07',
+                },
+
+                {
+                  title: '8장 객체 만들기', // required
+                  path: '/book/tdd/08',
+                },
+
+                {
+                  title: '9장 우리가 사는 시간', // required
+                  path: '/book/tdd/09',
+                },
               ]
             },
           
