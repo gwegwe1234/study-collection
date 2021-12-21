@@ -907,6 +907,25 @@ module.exports = {
               ]
             },
           ]
+        },
+
+        {
+          title: '끄적끄적',   // required
+          // optional, which should be a absolute path.
+          collapsable: true, // optional, defaults to true
+          sidebarDepth: 1,    // optional, defaults to 1
+          children: [
+            {
+              title: 'No Brain',
+              sidebarDepth: 0,
+              children: [
+                {
+                  title: '정리?', // required
+                  path: '/npbrain/summary',
+                },       
+              ]
+            },
+          ]
         }
       ],
       searchPlaceholder: 'Search...'
