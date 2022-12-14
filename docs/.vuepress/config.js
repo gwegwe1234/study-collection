@@ -665,6 +665,16 @@ module.exports = {
                 },
               ]
             },
+            {
+              title: '코틀린 완벽 가드',
+              sidebarDepth: 0,
+              children: [
+                {
+                  title: '1장 강력하고 실용적인 코틀린', // required
+                  path: '/book/perfect-kotlin/01',
+                },
+              ]
+            },
           ]
         },
 
