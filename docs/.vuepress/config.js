@@ -675,6 +675,16 @@ module.exports = {
                 },
               ]
             },
+            {
+              title: '코틀린 완벽 가드',
+              sidebarDepth: 0,
+              children: [
+                {
+                  title: '2장 코틀린 언어 기초', // required
+                  path: '/book/perfect-kotlin/02',
+                },
+              ]
+            },
           ]
         },
 
