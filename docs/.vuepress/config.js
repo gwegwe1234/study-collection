@@ -666,25 +666,23 @@ module.exports = {
               ]
             },
             {
-              title: '코틀린 완벽 가드',
+              title: '코틀린 완벽 가이드',
               sidebarDepth: 0,
               children: [
                 {
                   title: '1장 강력하고 실용적인 코틀린', // required
                   path: '/book/perfect-kotlin/01',
                 },
-              ]
-            },
-            {
-              title: '코틀린 완벽 가드',
-              sidebarDepth: 0,
-              children: [
                 {
                   title: '2장 코틀린 언어 기초', // required
                   path: '/book/perfect-kotlin/02',
                 },
+                {
+                  title: '3장 함수 정의하기', // required
+                  path: '/book/perfect-kotlin/03',
+                },
               ]
-            },
+            }
           ]
         },
 
