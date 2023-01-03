@@ -681,6 +681,10 @@ module.exports = {
                   title: '3장 함수 정의하기', // required
                   path: '/book/perfect-kotlin/03',
                 },
+                {
+                  title: '4장 클래스와 객체 다루기', // required
+                  path: '/book/perfect-kotlin/04',
+                },
               ]
             }
           ]
