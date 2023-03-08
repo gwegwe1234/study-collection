@@ -948,6 +948,10 @@ module.exports = {
                 {
                   title: '정리?', // required
                   path: '/npbrain/summary',
+                },   
+                {
+                  title: '내 현재 상황에 대한 회고 - 2022/03/08', // required
+                  path: '/npbrain/2022-03-08',
                 },       
               ]
             },
