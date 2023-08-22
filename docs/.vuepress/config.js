@@ -960,6 +960,10 @@ module.exports = {
                 {
                   title: '2023/08/18 - 5개월 간의 기록 ', // required
                   path: '/npbrain/2023-08-18',
+                },
+                {
+                  title: '책 요약 - 거인의 노트',
+                  path: '/npbrain/giant-note'
                 }
               ]
             },
