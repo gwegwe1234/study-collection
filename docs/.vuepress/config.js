@@ -948,7 +948,7 @@ module.exports = {
                 {
                   title: '정리?', // required
                   path: '/npbrain/summary',
-                },   
+                },
                 {
                   title: '2023/03/08 - 내 현재 상황에 대한 고민 ', // required
                   path: '/npbrain/2023-03-08',
@@ -960,6 +960,16 @@ module.exports = {
                 {
                   title: '2023/08/18 - 5개월 간의 기록 ', // required
                   path: '/npbrain/2023-08-18',
+                }
+              ]
+            },
+            {
+              title: 'History',
+              sidebarDepth: 0,
+              children: [
+                {
+                  title: '이력서', // required
+                  path: '/resume/resume',
                 }
               ]
             },
