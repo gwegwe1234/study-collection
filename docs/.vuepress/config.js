@@ -964,7 +964,11 @@ module.exports = {
                 {
                   title: '책 요약 - 거인의 노트',
                   path: '/npbrain/giant-note'
-                }
+                },
+                {
+                  title: '책 요약 - 앞으로 3년 경제전쟁의 미래',
+                  path: '/npbrain/three-year-economy'
+                },
               ]
             },
             {
