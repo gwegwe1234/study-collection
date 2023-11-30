@@ -969,6 +969,10 @@ module.exports = {
                   title: '책 요약 - 앞으로 3년 경제전쟁의 미래',
                   path: '/npbrain/three-year-economy'
                 },
+                {
+                  title: '책 요약 - 공부 감각, 10세 이전에 완성된다',
+                  path: '/npbrain/study-sense'
+                },
               ]
             },
             {
