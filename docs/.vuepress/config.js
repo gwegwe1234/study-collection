@@ -973,6 +973,10 @@ module.exports = {
                   title: '책 요약 - 공부 감각, 10세 이전에 완성된다',
                   path: '/npbrain/study-sense'
                 },
+                {
+                  title: '책 요약 - 정해진 미래',
+                  path: '/npbrain/expected-future'
+                },
               ]
             },
             {
