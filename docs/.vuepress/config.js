@@ -954,12 +954,16 @@ module.exports = {
                   path: '/npbrain/2023-03-08',
                 },
                 {
-                  title: '2023/03/15 - 회고 ', // required
+                  title: '2023/03/15 - 다짐 ', // required
                   path: '/npbrain/2023-03-15',
                 },
                 {
                   title: '2023/08/18 - 5개월 간의 기록 ', // required
                   path: '/npbrain/2023-08-18',
+                },
+                {
+                  title: '2024/01/09 - 23년 정리 & 24년 TODO', // required
+                  path: '/npbrain/2024-01-09',
                 },
                 {
                   title: '책 요약 - 거인의 노트',
