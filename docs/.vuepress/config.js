@@ -981,6 +981,10 @@ module.exports = {
                   title: '책 요약 - 정해진 미래',
                   path: '/npbrain/expected-future'
                 },
+                {
+                  title: '책 요약 - 부의 대동',
+                  path: '/npbrain/wealth-super-move'
+                },
               ]
             },
             {
