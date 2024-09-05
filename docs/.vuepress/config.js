@@ -966,6 +966,10 @@ module.exports = {
                   path: '/npbrain/2024-01-09',
                 },
                 {
+                  title: '2024/09/05 - 24년 상반기 정리', // required
+                  path: '/npbrain/2024-09-05',
+                },
+                {
                   title: '책 요약 - 거인의 노트',
                   path: '/npbrain/giant-note'
                 },
